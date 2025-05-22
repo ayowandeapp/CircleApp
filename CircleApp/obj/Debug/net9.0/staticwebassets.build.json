@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h7Ca9VC3Gd6cEbt0DjiEVAUOLDestvQAlvz8XjumoKg=",
+  "Hash": "DMVdwZuD6/DxDFhQzvO2enbhId0E8XblK+uGBkgS1OY=",
   "Source": "CircleApp",
   "BasePath": "_content/CircleApp",
   "Mode": "Default",
@@ -290,6 +290,27 @@
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7fpvm6bnu0-6w9j14fygc.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shBrushJScript#[.{fingerprint=6w9j14fygc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jxgc3slh3e",
+      "Integrity": "SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7imrod8jnf-63fj8s7r0e.gz",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
@@ -309,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7sgdvrssz9-pmrwgncoh8.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/styles/shCore#[.{fingerprint=pmrwgncoh8}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCore.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7q3j6p0ljf",
+      "Integrity": "YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCore.css"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\8izfkq3mtk-khv3u5hwcm.gz",
@@ -372,6 +414,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ax1a8ngpow-lxzyflrzcn.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "js/simplebar#[.{fingerprint=lxzyflrzcn}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\simplebar.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jsmt75eam0",
+      "Integrity": "XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\simplebar.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\b0ty1hmrc2-52a20dwd0l.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shBrushXml#[.{fingerprint=52a20dwd0l}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "km2uvdilvo",
+      "Integrity": "zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\bel1pdtadd-2z0ns9nrw6.gz",
@@ -519,6 +603,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dn4dvqv0jw-mz2bba8ryg.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "css/style#[.{fingerprint=mz2bba8ryg}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pawot3t9j9",
+      "Integrity": "gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\do8hxaa8zn-83jwlth58m.gz",
@@ -689,12 +794,33 @@
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\jb25jvcogr-6f9r9drxcn.gz",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CircleApp",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "js/script#[.{fingerprint=6f9r9drxcn}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qewa9vyl17",
+      "Integrity": "kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "css/site#[.{fingerprint=c7fgk2e7x4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -703,8 +829,8 @@
       "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "de7vkv5hqj",
+      "Integrity": "NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css"
@@ -815,6 +941,27 @@
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ot2ljvm9az-rssjosyve1.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "css/tailwind#[.{fingerprint=rssjosyve1}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\tailwind.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4jwfd2f9f4",
+      "Integrity": "kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\tailwind.css"
+    },
+    {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\pknwvs9dv2-hrwsygsryq.gz",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
@@ -876,6 +1023,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\q8ansbgy1e-naq7nvi4fe.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/styles/shCoreMidnight#[.{fingerprint=naq7nvi4fe}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bkjh3j0b1p",
+      "Integrity": "S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\qex8wz9qvs-o1o13a6vjx.gz",
@@ -1235,6 +1403,27 @@
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcdyqeffvg-n9dwubpwf7.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "js/uikit.min#[.{fingerprint=n9dwubpwf7}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\uikit.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wz8crr8mke",
+      "Integrity": "dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\uikit.min.js"
+    },
+    {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcll5kp77m-87fc7y1x7t.gz",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
@@ -1275,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xlswhaj469-7n9n0swffm.gz",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shCore#[.{fingerprint=7n9n0swffm}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shCore.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7eduwdi7mk",
+      "Integrity": "T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shCore.js"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xny2c5glm4-ag7o75518u.gz",
@@ -1417,11 +1627,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "c7fgk2e7x4",
+      "Integrity": "CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\style.css",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mz2bba8ryg",
+      "Integrity": "HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\tailwind.css",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "css/tailwind#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rssjosyve1",
+      "Integrity": "df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tailwind.css"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\favicon.ico",
@@ -1445,6 +1697,195 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\avatar\\user.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/avatar/user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3g7dpslgz",
+      "Integrity": "w4GmXaxYFT78XCdE76Ho9eEkr2nTV1j1tF736WqE2n4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar\\user.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\favicon.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "03hjdpxr8t",
+      "Integrity": "PN4yBfV9YYkQWIXLjp0CXwnxIboil3/vPcGhGaNGSDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\group-2.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/icons/group-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fz2kvfek51",
+      "Integrity": "G0exmkr+wlhHmzHnOrLQvmm0//caZ/3Vk/YDX51EPb4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons\\group-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\home.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/icons/home#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9digs2qg7o",
+      "Integrity": "A7uuy66aN+XH9EWN7Tobyd1UOBbTIUvhCGnW+qvHbr0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons\\home.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\page.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/icons/page#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "237y6cifis",
+      "Integrity": "olEnS2Dvmhuk9rJaSNSjBWxWeDiDFQ2WTdYXzag3BAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons\\page.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\video.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/icons/video#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ip9h76r9w",
+      "Integrity": "p8lWTYSEZXm3LZWacRQw1jqjQ3zT61rD8HZvT58Ioso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons\\video.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\logo.png",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "esigtp5g82",
+      "Integrity": "4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6f9r9drxcn",
+      "Integrity": "clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\simplebar.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "js/simplebar#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lxzyflrzcn",
+      "Integrity": "l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\simplebar.js"
+    },
+    {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\site.js",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
@@ -1464,6 +1905,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\uikit.min.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "js/uikit.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n9dwubpwf7",
+      "Integrity": "1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\uikit.min.js"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2724,6 +3186,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shBrushJScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6w9j14fygc",
+      "Integrity": "1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shBrushXml#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "52a20dwd0l",
+      "Integrity": "k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shCore.js",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/scripts/shCore#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7n9n0swffm",
+      "Integrity": "bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\syntax-highlighter\\scripts\\shCore.js"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCore.css",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/styles/shCore#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pmrwgncoh8",
+      "Integrity": "HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "syntax-highlighter/styles/shCoreMidnight#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "naq7nvi4fe",
+      "Integrity": "3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css"
     }
   ],
   "Endpoints": [
@@ -3324,13 +3891,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-b9sayid5wm.gz",
+      "Route": "css/site.c7fgk2e7x4.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002475247525"
         }
       ],
       "ResponseHeaders": [
@@ -3340,15 +3907,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "403"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3368,13 +3935,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "c7fgk2e7x4"
         },
         {
           "Name": "label",
@@ -3382,12 +3949,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.c7fgk2e7x4.css",
       "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +3964,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +3972,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +3986,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "c7fgk2e7x4"
         },
         {
           "Name": "label",
@@ -3427,13 +3994,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-b9sayid5wm.gz",
+      "Route": "css/site.c7fgk2e7x4.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +4009,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "403"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +4017,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +4039,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "c7fgk2e7x4"
         },
         {
           "Name": "label",
@@ -3480,18 +4047,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002475247525"
         }
       ],
       "ResponseHeaders": [
@@ -3501,15 +4068,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "403"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3529,13 +4096,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
         }
       ]
     },
@@ -3550,7 +4117,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -3558,11 +4125,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3572,13 +4139,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,7 +4154,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "403"
         },
         {
           "Name": "Content-Type",
@@ -3595,11 +4162,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 20 May 2025 21:48:23 GMT"
+          "Value": "Wed, 21 May 2025 23:37:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3617,7 +4184,603 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dn4dvqv0jw-mz2bba8ryg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000255362615"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3915"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dn4dvqv0jw-mz2bba8ryg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.mz2bba8ryg.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dn4dvqv0jw-mz2bba8ryg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000255362615"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3915"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mz2bba8ryg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.mz2bba8ryg.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mz2bba8ryg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HolI7c9QSdGMbRR2aDyVM6jrKhhjJLY4RxjY734QuYA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.mz2bba8ryg.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dn4dvqv0jw-mz2bba8ryg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mz2bba8ryg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gfLEv7BMaktAig/ZmMCZBWcS3jPdRXc1eu5vKk7QUxA="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ot2ljvm9az-rssjosyve1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044798853"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22321"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\tailwind.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ot2ljvm9az-rssjosyve1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.rssjosyve1.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ot2ljvm9az-rssjosyve1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044798853"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22321"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rssjosyve1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tailwind.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.rssjosyve1.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\tailwind.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rssjosyve1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tailwind.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-df/kvkXI3aasknOERuY0RTlqH9xYbCnCA+dth1JGh+g="
+        }
+      ]
+    },
+    {
+      "Route": "css/tailwind.rssjosyve1.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ot2ljvm9az-rssjosyve1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rssjosyve1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tailwind.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAjxoEv6WCjROdXxw/Am1yRA389Ayip26FlauBXc5vs="
         }
       ]
     },
@@ -3920,6 +5083,1176 @@
       ]
     },
     {
+      "Route": "images/avatar/user.h3g7dpslgz.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\avatar\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w4GmXaxYFT78XCdE76Ho9eEkr2nTV1j1tF736WqE2n4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:33:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3g7dpslgz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/avatar/user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w4GmXaxYFT78XCdE76Ho9eEkr2nTV1j1tF736WqE2n4="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar/user.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\avatar\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w4GmXaxYFT78XCdE76Ho9eEkr2nTV1j1tF736WqE2n4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 23:33:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w4GmXaxYFT78XCdE76Ho9eEkr2nTV1j1tF736WqE2n4="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.03hjdpxr8t.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PN4yBfV9YYkQWIXLjp0CXwnxIboil3/vPcGhGaNGSDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03hjdpxr8t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PN4yBfV9YYkQWIXLjp0CXwnxIboil3/vPcGhGaNGSDA="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PN4yBfV9YYkQWIXLjp0CXwnxIboil3/vPcGhGaNGSDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PN4yBfV9YYkQWIXLjp0CXwnxIboil3/vPcGhGaNGSDA="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/group-2.fz2kvfek51.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\group-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0exmkr+wlhHmzHnOrLQvmm0//caZ/3Vk/YDX51EPb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fz2kvfek51"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/group-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0exmkr+wlhHmzHnOrLQvmm0//caZ/3Vk/YDX51EPb4="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/group-2.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\group-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0exmkr+wlhHmzHnOrLQvmm0//caZ/3Vk/YDX51EPb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0exmkr+wlhHmzHnOrLQvmm0//caZ/3Vk/YDX51EPb4="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/home.9digs2qg7o.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\home.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A7uuy66aN+XH9EWN7Tobyd1UOBbTIUvhCGnW+qvHbr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9digs2qg7o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/home.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7uuy66aN+XH9EWN7Tobyd1UOBbTIUvhCGnW+qvHbr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/home.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\home.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A7uuy66aN+XH9EWN7Tobyd1UOBbTIUvhCGnW+qvHbr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7uuy66aN+XH9EWN7Tobyd1UOBbTIUvhCGnW+qvHbr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/page.237y6cifis.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\page.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"olEnS2Dvmhuk9rJaSNSjBWxWeDiDFQ2WTdYXzag3BAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "237y6cifis"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/page.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-olEnS2Dvmhuk9rJaSNSjBWxWeDiDFQ2WTdYXzag3BAo="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/page.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\page.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"olEnS2Dvmhuk9rJaSNSjBWxWeDiDFQ2WTdYXzag3BAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-olEnS2Dvmhuk9rJaSNSjBWxWeDiDFQ2WTdYXzag3BAo="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/video.1ip9h76r9w.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\video.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p8lWTYSEZXm3LZWacRQw1jqjQ3zT61rD8HZvT58Ioso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ip9h76r9w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/video.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p8lWTYSEZXm3LZWacRQw1jqjQ3zT61rD8HZvT58Ioso="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/video.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\icons\\video.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p8lWTYSEZXm3LZWacRQw1jqjQ3zT61rD8HZvT58Ioso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p8lWTYSEZXm3LZWacRQw1jqjQ3zT61rD8HZvT58Ioso="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.esigtp5g82.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "esigtp5g82"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.6f9r9drxcn.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\jb25jvcogr-6f9r9drxcn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001757469244"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "568"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f9r9drxcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.6f9r9drxcn.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f9r9drxcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.6f9r9drxcn.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\jb25jvcogr-6f9r9drxcn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f9r9drxcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\jb25jvcogr-6f9r9drxcn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001757469244"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "568"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\jb25jvcogr-6f9r9drxcn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 00:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kqdQ8GKsnIg9jEQdoUKYWgy5SyKv4IC0J2rITua8ZV4="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ax1a8ngpow-lxzyflrzcn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030094195"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33228"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\simplebar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ax1a8ngpow-lxzyflrzcn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.lxzyflrzcn.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ax1a8ngpow-lxzyflrzcn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030094195"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33228"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxzyflrzcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/simplebar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.lxzyflrzcn.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\simplebar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxzyflrzcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/simplebar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8KlAypSYEjheZwy103paC9XB/rvzbxigwjRIPxYZv8="
+        }
+      ]
+    },
+    {
+      "Route": "js/simplebar.lxzyflrzcn.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\ax1a8ngpow-lxzyflrzcn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lxzyflrzcn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/simplebar.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XeyKklmWfp2zif3aHMA2rKDE7eeqJ4nVVPGNKbTdr8Q="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\dk8a9ki9ua-xtxxf3hu2r.gz",
       "Selectors": [
@@ -4214,6 +6547,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcdyqeffvg-n9dwubpwf7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000021644553"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46200"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\uikit.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcdyqeffvg-n9dwubpwf7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.n9dwubpwf7.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcdyqeffvg-n9dwubpwf7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000021644553"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46200"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9dwubpwf7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/uikit.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.n9dwubpwf7.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\uikit.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9dwubpwf7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/uikit.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XqHKE3ZHD6bryMzb4L7SF4U2bsVmOV1aRc00IFX5N0="
+        }
+      ]
+    },
+    {
+      "Route": "js/uikit.min.n9dwubpwf7.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xcdyqeffvg-n9dwubpwf7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9dwubpwf7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/uikit.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dAC2iS2ewpK25MDuktvkzNZ+zQocvrpTRE6fJJOt4Ks="
         }
       ]
     },
@@ -21878,6 +24509,1496 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.6w9j14fygc.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7fpvm6bnu0-6w9j14fygc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001315789474"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "759"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6w9j14fygc"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushJScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.6w9j14fygc.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6w9j14fygc"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushJScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.6w9j14fygc.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7fpvm6bnu0-6w9j14fygc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6w9j14fygc"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushJScript.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7fpvm6bnu0-6w9j14fygc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001315789474"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "759"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lkYw8Otty18ckku2fke1wRhL0YoLeJdoSgW/gabtZs="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushJScript.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7fpvm6bnu0-6w9j14fygc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SbzWyDSJcKCO1PZPgJtEBkgET7d0VNBpZXv/dWLDZ8A="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.52a20dwd0l.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\b0ty1hmrc2-52a20dwd0l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001096491228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52a20dwd0l"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushXml.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.52a20dwd0l.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52a20dwd0l"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushXml.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.52a20dwd0l.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\b0ty1hmrc2-52a20dwd0l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52a20dwd0l"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shBrushXml.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\b0ty1hmrc2-52a20dwd0l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001096491228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8xkpdnZ0Xe48KIHCd3ojBg0g39IdEefTBxX+i2gJdo="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shBrushXml.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\b0ty1hmrc2-52a20dwd0l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJtzCgtupoAVjkamH2TV1yLz3J8IqnQGaJ0UuLf2wa0="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.7n9n0swffm.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xlswhaj469-7n9n0swffm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111321385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8982"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n9n0swffm"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shCore.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.7n9n0swffm.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shCore.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n9n0swffm"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shCore.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.7n9n0swffm.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xlswhaj469-7n9n0swffm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n9n0swffm"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/scripts/shCore.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xlswhaj469-7n9n0swffm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000111321385"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8982"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.js",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\scripts\\shCore.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb9GVIefdbetJ+Jn99Lt7Qg3Otk5n9pyjQaNeR1UOtw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/scripts/shCore.js.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\xlswhaj469-7n9n0swffm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/NcZWKqzuhGIe8qCeDOc/PTpwOb/2wwdaacEyX8dQ8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7sgdvrssz9-pmrwgncoh8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000768049155"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCore.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7sgdvrssz9-pmrwgncoh8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.pmrwgncoh8.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7sgdvrssz9-pmrwgncoh8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000768049155"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmrwgncoh8"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCore.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.pmrwgncoh8.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCore.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmrwgncoh8"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCore.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyD+mLfFbDyrfiQDr2tcWnn94hlvG6jrOOVUxIGQ3tw="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCore.pmrwgncoh8.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\7sgdvrssz9-pmrwgncoh8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmrwgncoh8"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCore.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVykmzfzTajgivKZwUZ0k5CRX4+hhUyjOQ6MJjQL8PE="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\q8ansbgy1e-naq7nvi4fe.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000632111252"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\q8ansbgy1e-naq7nvi4fe.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.naq7nvi4fe.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\q8ansbgy1e-naq7nvi4fe.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000632111252"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "naq7nvi4fe"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCoreMidnight.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.naq7nvi4fe.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "naq7nvi4fe"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCoreMidnight.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/PrTt8wU2hqINtxFk8AkoiG5d1HF7h9+zafq6MgRr8="
+        }
+      ]
+    },
+    {
+      "Route": "syntax-highlighter/styles/shCoreMidnight.naq7nvi4fe.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\q8ansbgy1e-naq7nvi4fe.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 May 2024 22:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "naq7nvi4fe"
+        },
+        {
+          "Name": "label",
+          "Value": "syntax-highlighter/styles/shCoreMidnight.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S0yF0MTFhmhetBIkNA69DKcIwpfc457epXjyHOvAi8c="
         }
       ]
     }

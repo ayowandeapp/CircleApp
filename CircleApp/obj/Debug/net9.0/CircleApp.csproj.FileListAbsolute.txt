@@ -17,7 +17,6 @@ C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleA
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\scopedcss\bundle\CircleApp.styles.css
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\scopedcss\projectbundle\CircleApp.bundle.scp.css
-C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\kbrbw8ctk7-b9sayid5wm.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\8xwspssyql-61n19gt1b8.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\dk8a9ki9ua-xtxxf3hu2r.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\lqd4w18kxw-bqjiyaj88i.gz
@@ -95,3 +94,15 @@ C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\refint\
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleApp.pdb
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleApp.genruntimeconfig.cache
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\ref\CircleApp.dll
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleApp.sourcelink.json
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\dn4dvqv0jw-mz2bba8ryg.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\ot2ljvm9az-rssjosyve1.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\jb25jvcogr-6f9r9drxcn.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\ax1a8ngpow-lxzyflrzcn.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\xcdyqeffvg-n9dwubpwf7.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\7fpvm6bnu0-6w9j14fygc.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\b0ty1hmrc2-52a20dwd0l.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\xlswhaj469-7n9n0swffm.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\7sgdvrssz9-pmrwgncoh8.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\q8ansbgy1e-naq7nvi4fe.gz
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\kbrbw8ctk7-c7fgk2e7x4.gz

@@ -24,12 +24,32 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Models/_CreateStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1vZGVsc1xfQ3JlYXRlU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Models/_CreateStory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1vZGVsc1xfQ3JlYXRlU3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Navigation/_SideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdmlnYXRpb25cX1NpZGVCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Navigation/_TopBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdmlnYXRpb25cX1RvcEJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Sidebar/_SuggestedFriends.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJcX1N1Z2dlc3RlZEZyaWVuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/Sidebar/_TrendsForYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJcX1RyZW5kc0ZvcllvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ovayo/Desktop/.net/project/CircleApp/CircleApp/Views/Shared/_ValidationScriptsPartial.cshtml]
