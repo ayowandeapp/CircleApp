@@ -680,7 +680,7 @@ input[type='text']::placeholder,
     input[type='date'],
     select, 
     textarea {
-    color: rgb(255 255 255 / 0.9) !important;
+    /* color: rgb(255 255 255 / 0.9) !important; */
   }
 
   input[type='text']::-moz-placeholder, input[type='password']::-moz-placeholder, input[type='email']::-moz-placeholder, input[type='number']::-moz-placeholder, input[type='url']::-moz-placeholder, input[type='date']::-moz-placeholder, select::-moz-placeholder, textarea::-moz-placeholder {
