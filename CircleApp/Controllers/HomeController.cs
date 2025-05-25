@@ -22,6 +22,7 @@ public class HomeController : Controller
     {
         var allPosts = await _appDbcontext.Posts
                 .Include(n => n.User)
+                .Include(n=> n.Likes)
                 .OrderByDescending(p => p.DateCreated)
                 .ToListAsync();
 
@@ -64,6 +65,31 @@ public class HomeController : Controller
         await _appDbcontext.SaveChangesAsync();
 
         //redirect to index page
+        return RedirectToAction("Index");
+
+    }
+
+    public async Task<IActionResult> TogglePostLike(PostLikeVM postLikeVM)
+    {
+        int userId = 1;
+        var like = await _appDbcontext.Likes
+            .Where(l => l.PostId == postLikeVM.PostId && l.UserId == userId)
+            .FirstOrDefaultAsync();
+        if (like != null)
+        {
+            _appDbcontext.Likes.Remove(like);
+            await _appDbcontext.SaveChangesAsync();
+        }
+        else
+        {
+            var newLike = new Like()
+            {
+                PostId = postLikeVM.PostId,
+                UserId = userId
+            };
+            await _appDbcontext.AddAsync(newLike);
+            await _appDbcontext.SaveChangesAsync();
+        }
         return RedirectToAction("Index");
 
     }
