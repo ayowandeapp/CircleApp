@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\20bd93e6-a3ef-47f8-8231-8f85959ba8e4.jpg",
+      "PackagePath": "staticwebassets\\images\\20bd93e6-a3ef-47f8-8231-8f85959ba8e4.jpg"
+    },
+    {
       "Id": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\avatar\\user.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user.png"
     },
@@ -47,6 +51,10 @@
     {
       "Id": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\uploaded\\53b0c000-2a36-40ab-8b68-8c67dfb00504.jpg",
+      "PackagePath": "staticwebassets\\images\\uploaded\\53b0c000-2a36-40ab-8b68-8c67dfb00504.jpg"
     },
     {
       "Id": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js",

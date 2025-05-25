@@ -20,5 +20,7 @@ namespace CircleApp.Models
         public int UserId { get; set; }
         //Navigation Properties
         public User User { get; set; }
+
+        public ICollection<Like> Likes { get; set; } = [];
     }
 }
