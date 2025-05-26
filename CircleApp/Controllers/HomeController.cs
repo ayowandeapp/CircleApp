@@ -22,7 +22,8 @@ public class HomeController : Controller
     {
         var allPosts = await _appDbcontext.Posts
                 .Include(n => n.User)
-                .Include(n=> n.Likes)
+                .Include(n => n.Likes)
+                .Include(n => n.Comments).ThenInclude(c => c.User)
                 .OrderByDescending(p => p.DateCreated)
                 .ToListAsync();
 
@@ -69,6 +70,7 @@ public class HomeController : Controller
 
     }
 
+    [HttpPost]
     public async Task<IActionResult> TogglePostLike(PostLikeVM postLikeVM)
     {
         int userId = 1;
@@ -94,6 +96,44 @@ public class HomeController : Controller
 
     }
 
+    [HttpPost]
+    public async Task<IActionResult> AddPostComment(PostCommentVM postCommentVM)
+    {
+        int userId = 1;
+        Comment newComment = new()
+        {
+            UserId = userId,
+            PostId = postCommentVM.PostId,
+            Content = postCommentVM.Content,
+            DateCreated = DateTime.UtcNow,
+            DateUpdated = DateTime.UtcNow,
+
+        };
+        await _appDbcontext.AddAsync(newComment);
+        await _appDbcontext.SaveChangesAsync();
+
+        return RedirectToAction("Index");
+
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> RemovePostComment(RemoveCommentVM removeCommentVM)
+    {
+        int userId = 1;
+        var comment = await _appDbcontext.Comments.FirstOrDefaultAsync(c => c.Id == removeCommentVM.CommentId);
+        if (comment == null || comment.UserId != userId)
+        {
+            _logger.LogWarning($"User {userId} attempted to delete comment {comment?.Id} owned by {comment?.UserId}");
+            return Forbid();
+            // return RedirectToAction("Index");
+
+        }
+        _appDbcontext.Remove(comment);
+        await _appDbcontext.SaveChangesAsync();
+
+        return RedirectToAction("Index");
+
+    }
 
     // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     // public IActionResult Error()
