@@ -20,7 +20,9 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
+        int userId = 1;
         var allPosts = await _appDbcontext.Posts
+                .Where(p => !p.IsPrivate || p.UserId == userId)
                 .Include(n => n.User)
                 .Include(n => n.Likes)
                 .Include(n => n.Comments).ThenInclude(c => c.User)
@@ -136,6 +138,7 @@ public class HomeController : Controller
 
     }
 
+    [HttpPost]
     public async Task<IActionResult> ToggleFavoritePosts(PostFavoriteVM postFavoriteVM)
     {
         int userId = 1;
@@ -158,6 +161,22 @@ public class HomeController : Controller
 
     }
 
+    [HttpPost]
+    public async Task<IActionResult> TogglePostVisibility(PostVisibilityVM postVisibilityVM)
+    {
+        int userId = 1;
+        var post = await _appDbcontext.Posts
+            .Where(p => p.Id == postVisibilityVM.PostId && p.UserId == userId)
+            .FirstOrDefaultAsync();
+        if (post != null)
+        {
+            post.IsPrivate = !post.IsPrivate;
+            _appDbcontext.Posts.Update(post);
+            await _appDbcontext.SaveChangesAsync();
+        }
+        return RedirectToAction("Index");
+
+    }
     // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     // public IActionResult Error()
     // {

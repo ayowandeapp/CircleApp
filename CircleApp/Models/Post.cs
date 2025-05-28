@@ -15,6 +15,7 @@ namespace CircleApp.Models
         public int NrOfReports { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateUpdated { get; set; }
+        public bool IsPrivate { get; set; }
 
         //Foreign Key
         public int UserId { get; set; }
