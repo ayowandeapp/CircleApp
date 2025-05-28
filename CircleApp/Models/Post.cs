@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using CircleApp.Models.Base;
 
 namespace CircleApp.Models
 {
-    public class Post
+    public class Post: SoftDeletableEntity
     {
         [Key]
         public int Id { get; set; }
@@ -16,7 +17,6 @@ namespace CircleApp.Models
         public DateTime DateCreated { get; set; }
         public DateTime DateUpdated { get; set; }
         public bool IsPrivate { get; set; }
-
         //Foreign Key
         public int UserId { get; set; }
         //Navigation Properties

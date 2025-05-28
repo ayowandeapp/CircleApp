@@ -22,6 +22,7 @@ public class HomeController : Controller
     {
         int userId = 1;
         var allPosts = await _appDbcontext.Posts
+                .Where(p => p.DateDeleted == null)
                 .Where(p => (!p.IsPrivate || p.UserId == userId) && p.Reports.Count < 5)
                 .Include(n => n.User)
                 .Include(n => n.Likes)
@@ -196,7 +197,25 @@ public class HomeController : Controller
         return RedirectToAction("Index");
 
     }
+ 
+    
+    [HttpPost]
+    public async Task<IActionResult> PostDelete(PostDeleteVM postDeleteVM)
+    {
+        int userId = 1;
+        var post = await _appDbcontext.Posts.FirstOrDefaultAsync(
+            p => p.Id == postDeleteVM.PostId && p.UserId == userId
+        );
+        if (post != null)
+        {
+            post.SoftDelete();      
+            _appDbcontext.Posts.Update(post);
+        }
+        await _appDbcontext.SaveChangesAsync();
 
+        return RedirectToAction("Index");
+
+    }
     // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     // public IActionResult Error()
     // {

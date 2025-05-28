@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lHCBc3Tfx8WxMbg3m0hUQPjWDc+qBpjc6KIEUfbmSQ4=",
+  "Hash": "ZJAKjdcpgYsQeGvTsxRjWB5b5A1jQPT3ZohDynPFJ7I=",
   "Source": "CircleApp",
   "BasePath": "_content/CircleApp",
   "Mode": "Default",
@@ -815,12 +815,12 @@
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-3lyn7so3v1.gz",
       "SourceId": "CircleApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CircleApp",
-      "RelativePath": "css/site#[.{fingerprint=c7fgk2e7x4}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=3lyn7so3v1}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -829,8 +829,8 @@
       "RelatedAsset": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "de7vkv5hqj",
-      "Integrity": "NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=",
+      "Fingerprint": "6oky46kuy1",
+      "Integrity": "2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css"
@@ -1627,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c7fgk2e7x4",
-      "Integrity": "CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=",
+      "Fingerprint": "3lyn7so3v1",
+      "Integrity": "KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3933,13 +3933,13 @@
       ]
     },
     {
-      "Route": "css/site.c7fgk2e7x4.css",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "Route": "css/site.3lyn7so3v1.css",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-3lyn7so3v1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002475247525"
+          "Quality": "0.002392344498"
         }
       ],
       "ResponseHeaders": [
@@ -3949,15 +3949,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "403"
+          "Value": "417"
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
+          "Value": "\"2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3977,13 +3977,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
+          "Value": "W/\"KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c7fgk2e7x4"
+          "Value": "3lyn7so3v1"
         },
         {
           "Name": "label",
@@ -3991,12 +3991,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
+          "Value": "sha256-KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY="
         }
       ]
     },
     {
-      "Route": "css/site.c7fgk2e7x4.css",
+      "Route": "css/site.3lyn7so3v1.css",
       "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4006,7 +4006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "744"
+          "Value": "792"
         },
         {
           "Name": "Content-Type",
@@ -4014,11 +4014,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
+          "Value": "\"KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4028,7 +4028,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c7fgk2e7x4"
+          "Value": "3lyn7so3v1"
         },
         {
           "Name": "label",
@@ -4036,13 +4036,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
+          "Value": "sha256-KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY="
         }
       ]
     },
     {
-      "Route": "css/site.c7fgk2e7x4.css.gz",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "Route": "css/site.3lyn7so3v1.css.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-3lyn7so3v1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4051,7 +4051,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "403"
+          "Value": "417"
         },
         {
           "Name": "Content-Type",
@@ -4059,11 +4059,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
+          "Value": "\"2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4081,7 +4081,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c7fgk2e7x4"
+          "Value": "3lyn7so3v1"
         },
         {
           "Name": "label",
@@ -4089,18 +4089,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg="
+          "Value": "sha256-2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-3lyn7so3v1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002475247525"
+          "Quality": "0.002392344498"
         }
       ],
       "ResponseHeaders": [
@@ -4110,15 +4110,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "403"
+          "Value": "417"
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
+          "Value": "\"2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4138,13 +4138,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
+          "Value": "W/\"KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
+          "Value": "sha256-KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY="
         }
       ]
     },
@@ -4159,7 +4159,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "744"
+          "Value": "792"
         },
         {
           "Name": "Content-Type",
@@ -4167,11 +4167,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A=\""
+          "Value": "\"KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4181,13 +4181,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CNOWdEdeMCnkKY0HH0g+wtem29JdFecBb8ILZrvsc8A="
+          "Value": "sha256-KVoaHggFwsSSEKLnk9H06qYFWgKdHQiAOjeKi6M6QcY="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-c7fgk2e7x4.gz",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\obj\\Debug\\net9.0\\compressed\\kbrbw8ctk7-3lyn7so3v1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4196,7 +4196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "403"
+          "Value": "417"
         },
         {
           "Name": "Content-Type",
@@ -4204,11 +4204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg=\""
+          "Value": "\"2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 23:37:46 GMT"
+          "Value": "Wed, 28 May 2025 17:12:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4226,7 +4226,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NTfkTfatq6420sauLsKA6lzf/kvVf/fId5PsTA9eCDg="
+          "Value": "sha256-2kZCIK0p55qc5YcQDbkmBsdZmXQUhmqjWrK99WCX8a8="
         }
       ]
     },
