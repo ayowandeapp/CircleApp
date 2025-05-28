@@ -18,6 +18,7 @@ namespace CircleApp.Data
         public DbSet<Like> Likes { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<Report> Reports { get; set; }
 
         //Explicitly define relationship
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -65,6 +66,19 @@ namespace CircleApp.Data
                 .HasForeignKey(c => c.PostId)
                 .OnDelete(DeleteBehavior.NoAction);
 
+
+            modelBuilder.Entity<Report>()
+                .HasKey(r => new { r.PostId, r.UserId });
+            modelBuilder.Entity<Report>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.Reports)
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Report>()
+                .HasOne(r => r.Post)
+                .WithMany(p => p.Reports)
+                .HasForeignKey(r => r.PostId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             base.OnModelCreating(modelBuilder);
 

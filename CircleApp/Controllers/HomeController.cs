@@ -22,11 +22,12 @@ public class HomeController : Controller
     {
         int userId = 1;
         var allPosts = await _appDbcontext.Posts
-                .Where(p => !p.IsPrivate || p.UserId == userId)
+                .Where(p => (!p.IsPrivate || p.UserId == userId) && p.Reports.Count < 5)
                 .Include(n => n.User)
                 .Include(n => n.Likes)
                 .Include(n => n.Comments).ThenInclude(c => c.User)
-                .Include(n => n.Favorites.Where(f =>f.UserId == 1))                
+                .Include(n => n.Favorites.Where(f => f.UserId == userId))
+                .Include(n => n.Reports.Where(r => r.UserId == userId))
                 .OrderByDescending(p => p.DateCreated)
                 .ToListAsync();
 
@@ -112,7 +113,7 @@ public class HomeController : Controller
             DateUpdated = DateTime.UtcNow,
 
         };
-        await _appDbcontext.AddAsync(newComment);
+        await _appDbcontext.Comments.AddAsync(newComment);
         await _appDbcontext.SaveChangesAsync();
 
         return RedirectToAction("Index");
@@ -177,6 +178,25 @@ public class HomeController : Controller
         return RedirectToAction("Index");
 
     }
+    
+    
+    [HttpPost]
+    public async Task<IActionResult> AddPostReport(PostReportVM postReportVM)
+    {
+        int userId = 1;
+        Report newReport = new()
+        {
+            UserId = userId,
+            PostId = postReportVM.PostId,
+
+        };
+        await _appDbcontext.Reports.AddAsync(newReport);
+        await _appDbcontext.SaveChangesAsync();
+
+        return RedirectToAction("Index");
+
+    }
+
     // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     // public IActionResult Error()
     // {
