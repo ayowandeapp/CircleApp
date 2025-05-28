@@ -12,6 +12,8 @@
     }else{
         displayTime = "Just now";
     }
+    
+    bool isFavorited = Model.Favorites.Count > 0;
 }
 
 <div class="bg-white rounded-xl shadow-sm text-sm font-medium border1">
@@ -99,7 +101,12 @@
 
         <div>
             <a class="button-icon ml-auto">
-                <ion-icon class="text-lg" name="bookmark-outline"></ion-icon>
+                <form asp-controller="Home" asp-action="ToggleFavoritePosts">
+                    <input type="hidden" name="postId" value="@Model.Id" />
+                    <button type="submit" class="button-icon @(isFavorited ? "text-orange-500 bg-orange-100" : "")">
+                        <ion-icon class="text-lg" name="@(isFavorited ? "bookmark" : "bookmark-outline")"></ion-icon>
+                    </button>
+                </form>
             </a>
         </div>
     </div>

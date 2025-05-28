@@ -24,6 +24,7 @@ public class HomeController : Controller
                 .Include(n => n.User)
                 .Include(n => n.Likes)
                 .Include(n => n.Comments).ThenInclude(c => c.User)
+                .Include(n => n.Favorites.Where(f =>f.UserId == 1))                
                 .OrderByDescending(p => p.DateCreated)
                 .ToListAsync();
 
@@ -131,6 +132,28 @@ public class HomeController : Controller
         _appDbcontext.Remove(comment);
         await _appDbcontext.SaveChangesAsync();
 
+        return RedirectToAction("Index");
+
+    }
+
+    public async Task<IActionResult> ToggleFavoritePosts(PostFavoriteVM postFavoriteVM)
+    {
+        int userId = 1;
+        var favorite = await _appDbcontext.Favorites.Where(f => f.PostId == postFavoriteVM.PostId && f.UserId == userId).FirstOrDefaultAsync();
+        if (favorite != null)
+        {
+            _appDbcontext.Favorites.Remove(favorite);
+        }
+        else
+        {
+            await _appDbcontext.Favorites.AddAsync(new Favorite()
+            {
+                PostId = postFavoriteVM.PostId,
+                UserId = userId
+
+            });
+        }
+        await _appDbcontext.SaveChangesAsync();
         return RedirectToAction("Index");
 
     }
