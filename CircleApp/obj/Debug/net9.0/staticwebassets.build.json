@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZJAKjdcpgYsQeGvTsxRjWB5b5A1jQPT3ZohDynPFJ7I=",
+  "Hash": "kZNnx6cG4xAFlVL4NI840qFYI5dhgL2fLZQp2eMdhls=",
   "Source": "CircleApp",
   "BasePath": "_content/CircleApp",
   "Mode": "Default",
@@ -1863,6 +1863,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzra83xu0s",
+      "Integrity": "zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\stpries\\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzra83xu0s",
+      "Integrity": "zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\stpries\\e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\uploaded\\53b0c000-2a36-40ab-8b68-8c67dfb00504.jpg",
@@ -5777,6 +5819,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-4qtDB0RngIr5AocaSTB16aleDDVgswWQOhA/gKgyiug="
+        }
+      ]
+    },
+    {
+      "Route": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:52:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY="
+        }
+      ]
+    },
+    {
+      "Route": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.mzra83xu0s.jpeg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:52:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzra83xu0s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY="
+        }
+      ]
+    },
+    {
+      "Route": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY="
+        }
+      ]
+    },
+    {
+      "Route": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.mzra83xu0s.jpeg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stpries\\e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:36:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzra83xu0s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs+eteW+ZQLcvqnDCNkih4Nx/EJZQoVd3jgNpWbITYY="
         }
       ]
     },

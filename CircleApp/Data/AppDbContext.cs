@@ -19,6 +19,7 @@ namespace CircleApp.Data
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<Report> Reports { get; set; }
+        public DbSet<Story> Stories { get; set; }
 
         //Explicitly define relationship
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -79,6 +80,11 @@ namespace CircleApp.Data
                 .WithMany(p => p.Reports)
                 .HasForeignKey(r => r.PostId)
                 .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Story>()
+                .HasOne(s => s.User)
+                .WithMany(u => u.Stories)
+                .HasForeignKey(s => s.UserId);
 
             base.OnModelCreating(modelBuilder);
 

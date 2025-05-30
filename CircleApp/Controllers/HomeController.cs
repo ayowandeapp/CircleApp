@@ -56,7 +56,7 @@ public class HomeController : Controller
             string rootFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
             if (post.Image.ContentType.Contains("image"))
             {
-                string pathImages = Path.Combine(rootFolderPath, "images/uploaded");
+                string pathImages = Path.Combine(rootFolderPath, "images/posts");
                 Directory.CreateDirectory(pathImages);
 
                 string fileName = Guid.NewGuid().ToString() + Path.GetExtension(post.Image.FileName);
@@ -64,7 +64,7 @@ public class HomeController : Controller
                 using (var stream = new FileStream(filePath, FileMode.Create))
                     await post.Image.CopyToAsync(stream);
                 //set the url
-                newPost.ImageUrl = "/images/uploaded/" + fileName;
+                newPost.ImageUrl = "/images/posts/" + fileName;
             }
         }
         await _appDbcontext.Posts.AddAsync(newPost);

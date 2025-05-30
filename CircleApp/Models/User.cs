@@ -17,5 +17,6 @@ namespace CircleApp.Models
         public ICollection<Comment> Comments { get; set; } = [];
         public ICollection<Favorite> Favorites { get; set; } = [];
         public ICollection<Report> Reports { get; set; } = [];
+        public ICollection<Story> Stories { get; set; } = [];
     }
 }
