@@ -252,6 +252,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\stories\01f64080-acb5-4493-a930-d376e7d57798.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\stories\11855678-e1c9-46b8-9994-6d922865f134.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CircleApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CircleApp</BasePath>
+      <RelativePath>images/stories/11855678-e1c9-46b8-9994-6d922865f134.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3p0adesa3a</Fingerprint>
+      <Integrity>B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\stories\11855678-e1c9-46b8-9994-6d922865f134.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\stories\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>CircleApp</SourceId>

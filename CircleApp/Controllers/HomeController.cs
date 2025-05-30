@@ -4,6 +4,7 @@ using CircleApp.Models;
 using CircleApp.Data;
 using Microsoft.EntityFrameworkCore;
 using CircleApp.ViewModels.Home;
+using CircleApp.Data.Helpers;
 
 namespace CircleApp.Controllers;
 
@@ -68,6 +69,31 @@ public class HomeController : Controller
             }
         }
         await _appDbcontext.Posts.AddAsync(newPost);
+        await _appDbcontext.SaveChangesAsync();
+
+        //find and score hashtags
+        var postHashtags = HashtagHelper.GetHashtags(newPost.Content);
+        foreach (var tags in postHashtags)
+        {
+            var tagDb = await _appDbcontext.Hashtags.FirstOrDefaultAsync(h => h.Name == tags);
+
+            if (tagDb != null)
+            {
+                tagDb.Count += 1;
+                tagDb.DateUpdated = DateTime.UtcNow;
+                
+                _appDbcontext.Hashtags.Update(tagDb);
+            }
+            else
+            {
+                await _appDbcontext.Hashtags.AddAsync(new Hashtag
+                {
+                    Name = tags,
+                    Count = 1
+
+                });
+            }
+        }
         await _appDbcontext.SaveChangesAsync();
 
         //redirect to index page
@@ -210,8 +236,24 @@ public class HomeController : Controller
         {
             post.SoftDelete();      
             _appDbcontext.Posts.Update(post);
+            
+            //decrease the hashtags
+            var tags = HashtagHelper.GetHashtags(post.Content);
+            foreach (var tag in tags)
+            {
+                var tagDb = await _appDbcontext.Hashtags.FirstOrDefaultAsync(
+                    p => p.Name == tag
+                );
+                if (tagDb != null)
+                {
+                    tagDb.Count -= 1;
+                    _appDbcontext.Hashtags.Update(tagDb);
+
+                }
+            }
         }
         await _appDbcontext.SaveChangesAsync();
+
 
         return RedirectToAction("Index");
 

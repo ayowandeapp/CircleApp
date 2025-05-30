@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ymwytBZer/gpwZVvsKrG8MOnfQimH74kvRTA9+dMMbY=",
+  "Hash": "vic3HpVN4lbIKG+4SOnMAz1GajatlyVpz9gV3KHoJZI=",
   "Source": "CircleApp",
   "BasePath": "_content/CircleApp",
   "Mode": "Default",
@@ -1884,6 +1884,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\stories\\01f64080-acb5-4493-a930-d376e7d57798.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stories\\11855678-e1c9-46b8-9994-6d922865f134.jpg",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/stories/11855678-e1c9-46b8-9994-6d922865f134#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3p0adesa3a",
+      "Integrity": "B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\stories\\11855678-e1c9-46b8-9994-6d922865f134.jpg"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stories\\843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
@@ -5922,6 +5943,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uVUrKKv/vunubVUpEfISFx83KBv/q0GMuZL1oj5H/BM="
+        }
+      ]
+    },
+    {
+      "Route": "images/stories/11855678-e1c9-46b8-9994-6d922865f134.3p0adesa3a.jpg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stories\\11855678-e1c9-46b8-9994-6d922865f134.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1249661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 16:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3p0adesa3a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/stories/11855678-e1c9-46b8-9994-6d922865f134.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU="
+        }
+      ]
+    },
+    {
+      "Route": "images/stories/11855678-e1c9-46b8-9994-6d922865f134.jpg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\stories\\11855678-e1c9-46b8-9994-6d922865f134.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1249661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 16:40:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B4e4h58bJmkFdy+ZWJkndzRs13mmmIc3ic0RZbnK4vU="
         }
       ]
     },
