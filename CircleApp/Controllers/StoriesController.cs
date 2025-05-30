@@ -23,17 +23,6 @@ namespace CircleApp.Controllers
             _logger = logger;
             _context = appDbContext;
         }
-
-        public async Task<IActionResult> Index()
-        {
-            int userId = 1;
-            var stories = await _context.Stories
-                            .Include(s => s.User)
-                            .Where(s => s.UserId == userId)
-                            .ToListAsync();
-
-            return View(stories);
-        }
         [HttpPost]
         public async Task<IActionResult> CreateStories(PostStoriesVM postStoriesVM)
         {
@@ -65,7 +54,7 @@ namespace CircleApp.Controllers
             await _context.SaveChangesAsync();
 
             //redirect to index page
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
 
         }
 

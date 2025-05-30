@@ -2149,8 +2149,90 @@
       ]
     },
     {
-      "Route": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
-      "AssetFile": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "Route": "images/stories/01f64080-acb5-4493-a930-d376e7d57798.70488729t7.jpg",
+      "AssetFile": "images/stories/01f64080-acb5-4493-a930-d376e7d57798.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1898043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uVUrKKv/vunubVUpEfISFx83KBv/q0GMuZL1oj5H/BM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:58:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70488729t7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uVUrKKv/vunubVUpEfISFx83KBv/q0GMuZL1oj5H/BM="
+        },
+        {
+          "Name": "label",
+          "Value": "images/stories/01f64080-acb5-4493-a930-d376e7d57798.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/stories/01f64080-acb5-4493-a930-d376e7d57798.jpg",
+      "AssetFile": "images/stories/01f64080-acb5-4493-a930-d376e7d57798.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1898043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uVUrKKv/vunubVUpEfISFx83KBv/q0GMuZL1oj5H/BM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 14:58:00 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uVUrKKv/vunubVUpEfISFx83KBv/q0GMuZL1oj5H/BM="
+        }
+      ]
+    },
+    {
+      "Route": "images/stories/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "AssetFile": "images/stories/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2186,8 +2268,8 @@
       ]
     },
     {
-      "Route": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.mzra83xu0s.jpeg",
-      "AssetFile": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
+      "Route": "images/stories/843193b9-0f11-46ef-941d-1ac8de7f4f0c.mzra83xu0s.jpeg",
+      "AssetFile": "images/stories/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,13 +2308,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/stpries/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg"
+          "Value": "images/stories/843193b9-0f11-46ef-941d-1ac8de7f4f0c.jpeg"
         }
       ]
     },
     {
-      "Route": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
-      "AssetFile": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "Route": "images/stories/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "AssetFile": "images/stories/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2268,8 +2350,8 @@
       ]
     },
     {
-      "Route": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.mzra83xu0s.jpeg",
-      "AssetFile": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
+      "Route": "images/stories/e792db23-de46-441b-952f-0dcd95fd3b9d.mzra83xu0s.jpeg",
+      "AssetFile": "images/stories/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2308,7 +2390,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/stpries/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg"
+          "Value": "images/stories/e792db23-de46-441b-952f-0dcd95fd3b9d.jpeg"
         }
       ]
     },
