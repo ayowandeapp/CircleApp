@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m9pCG5C+VNGNjZLj1Ktyqz428lKtzH6qvWpyWayBrqE=",
+  "Hash": "AV/noS7bYdYRWpfRg/PivI6bGbS/llJ2c4Bf6NsQ7W4=",
   "Source": "CircleApp",
   "BasePath": "_content/CircleApp",
   "Mode": "Default",
@@ -1884,6 +1884,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\posts\\88b3e11b-8754-4574-8866-5146c2e5f72f.png"
+    },
+    {
+      "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\posts\\8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg",
+      "SourceId": "CircleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\",
+      "BasePath": "_content/CircleApp",
+      "RelativePath": "images/posts/8d495ba9-d89b-4710-bd4f-a847cdb40ba2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pt6xch8nul",
+      "Integrity": "M68txkzB8AyQax7nb1tzhwl830qPN44a9/+DWzLgevg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posts\\8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg"
     },
     {
       "Identity": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\posts\\a87b5721-5403-473d-93bc-6af5960eb8f5.png",
@@ -6069,6 +6090,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-bBXXnnk4ayUnX3bplojcGoP5L/hjq4Dv+yHNuYWjxA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/posts/8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\posts\\8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M68txkzB8AyQax7nb1tzhwl830qPN44a9/+DWzLgevg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:07:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M68txkzB8AyQax7nb1tzhwl830qPN44a9/+DWzLgevg="
+        }
+      ]
+    },
+    {
+      "Route": "images/posts/8d495ba9-d89b-4710-bd4f-a847cdb40ba2.pt6xch8nul.jpg",
+      "AssetFile": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\wwwroot\\images\\posts\\8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M68txkzB8AyQax7nb1tzhwl830qPN44a9/+DWzLgevg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:07:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt6xch8nul"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posts/8d495ba9-d89b-4710-bd4f-a847cdb40ba2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M68txkzB8AyQax7nb1tzhwl830qPN44a9/+DWzLgevg="
         }
       ]
     },

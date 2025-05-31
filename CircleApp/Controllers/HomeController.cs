@@ -16,7 +16,7 @@ public class HomeController : Controller
     private readonly AppDbContext _appDbcontext;
     private readonly IPostService _postService;
     private readonly IHashtagService _hashtagService;
-        private readonly IFilesService _filesService;
+    private readonly IFilesService _filesService;
 
     public HomeController(IPostService postService, IHashtagService hashtagService,
             IFilesService filesService,

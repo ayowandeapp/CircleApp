@@ -9,6 +9,7 @@ namespace CircleApp.Services
     public interface IPostService
     {
         Task<List<Post>> GetPostsAsync(int userId);
+        Task<List<Post>> GetFavoritedPostsAsync();
         Task<Post> CreatePostAsync(Post post);
         Task<Post?> RemovePostAsync(int postId);
         Task AddPostCommentAsync(Comment comment);
