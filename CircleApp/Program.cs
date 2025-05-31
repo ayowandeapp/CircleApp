@@ -1,5 +1,6 @@
 using CircleApp.Data;
 using CircleApp.Helpers;
+using CircleApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,12 @@ builder.Services.AddControllersWithViews();
 //Database configuration
 string? dbConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(dbConnectionString));
+
+//Service configuration
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IHashtagService, HashtagsService>();
+builder.Services.AddScoped<IStoriesService, StoriesService>();
+builder.Services.AddScoped<IFilesService, FilesService>();
 
 var app = builder.Build();
 

@@ -4,7 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using CircleApp.Data;
+using CircleApp.Enums;
 using CircleApp.Models;
+using CircleApp.Services;
 using CircleApp.ViewModels.Stories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,12 +18,16 @@ namespace CircleApp.Controllers
     public class StoriesController : Controller
     {
         private readonly ILogger<StoriesController> _logger;
-        private readonly AppDbContext _context;
+        private readonly IStoriesService _storiesService;
+        private readonly IFilesService _filesService;
 
-        public StoriesController(ILogger<StoriesController> logger, AppDbContext appDbContext)
+        public StoriesController(
+            IFilesService filesService,
+            ILogger<StoriesController> logger, IStoriesService storiesService)
         {
             _logger = logger;
-            _context = appDbContext;
+            _storiesService = storiesService;
+            _filesService = filesService;
         }
         [HttpPost]
         public async Task<IActionResult> CreateStories(PostStoriesVM postStoriesVM)
@@ -33,25 +39,9 @@ namespace CircleApp.Controllers
                 ImageUrl = "",
                 UserId = userId
             };
-            //check and save the image
-            if (postStoriesVM.Image != null && postStoriesVM.Image.Length > 0)
-            {
-                string rootFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-                if (postStoriesVM.Image.ContentType.Contains("image"))
-                {
-                    string pathImages = Path.Combine(rootFolderPath, "images/stories");
-                    Directory.CreateDirectory(pathImages);
+            newStory.ImageUrl = await _filesService.UploadImageAsync(postStoriesVM.Image, ImageFileTypeEnum.StoryImage);
 
-                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(postStoriesVM.Image.FileName);
-                    string filePath = Path.Combine(pathImages, fileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                        await postStoriesVM.Image.CopyToAsync(stream);
-                    //set the url
-                    newStory.ImageUrl = "/images/stories/" + fileName;
-                }
-            }
-            await _context.Stories.AddAsync(newStory);
-            await _context.SaveChangesAsync();
+            await _storiesService.CreateStoryAsync(newStory);
 
             //redirect to index page
             return RedirectToAction("Index", "Home");
