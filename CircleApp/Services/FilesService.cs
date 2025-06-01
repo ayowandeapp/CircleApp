@@ -14,6 +14,7 @@ namespace CircleApp.Services
             {
                 ImageFileTypeEnum.PostImage => "images/posts",
                 ImageFileTypeEnum.StoryImage => "images/stories",
+                ImageFileTypeEnum.ProfileImage => "images/profile",
                 _ => throw new ArgumentException("not allowed")
             };
             //check and save the image

@@ -1,7 +1,7 @@
 @model List<Post>
 
 <main id="site__main" class="2xl:ml-[--w-side]  xl:ml-[--w-side-sm] p-2.5 h-[calc(100vh-var(--m-top))] mt-[--m-top]">
-    <div class="lg:flex 2xl:gap-16 gap-12 max-w-[1065px] mx-auto" id="js-oversized"></div>
+    <div class="lg:flex 2xl:gap-16 gap-12 max-w-[1065px] mx-auto" id="js-oversized">
         <div class="max-w-[680px] mx-auto">
 
             <div class="md:max-w-[580px] mx-auto flex-1 xl:space-y-6 space-y-3">
@@ -16,7 +16,7 @@
                 {
                     @foreach (var post in Model)
                     {
-                        @* <partial name="Home/_Post" model="post" view-data='new ViewDataDictionary(ViewData) { { "ShowAllComment", false } }' /> *@
+                        <partial name="Home/_Post" model="post"  />
                     }
                 }
             </div>
@@ -24,10 +24,10 @@
         <div class="flex-1">
             <div class="lg:space-y-4 lg:pb-8 max-lg:grid sm:grid-cols-2 max-lg:gap-6">
                 <div class="box p-5 px-6">
-                    @* <partial name="Sidebar/_SuggestedFriends" /> *@
+                    <partial name="Sidebar/_SuggestedFriends" />
                 </div>
                 <div class="box p-5 px-6 border1">
-                    @* @await Component.InvokeAsync("Hashtags") *@
+                    @await Component.InvokeAsync("Hashtags")
                 </div>
             </div>
         </div>

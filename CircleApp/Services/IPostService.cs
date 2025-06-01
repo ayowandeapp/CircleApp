@@ -18,6 +18,7 @@ namespace CircleApp.Services
         Task TogglePostVisibilityAsync(int postId);
         Task TogglePostFavoriteAsync(int postId);
         Task ReportPostAsync(int postId);
+        Task<Post?> GetPostByIdAsync(int postId);
 
     }
 }

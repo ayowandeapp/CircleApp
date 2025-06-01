@@ -37,6 +37,12 @@ public class HomeController : Controller
         return View(allPosts);
     }
 
+    public async Task<IActionResult> Details(int PostId)
+    {
+        var post = await _postService.GetPostByIdAsync(PostId);
+
+        return View(post);
+    }
     [HttpPost]
     public async Task<IActionResult> CreatePost(PostVM post)
     {

@@ -42,6 +42,16 @@ namespace CircleApp.Services
                 .ToListAsync();
         }
 
+        public async Task<Post?> GetPostByIdAsync(int postId)
+        {
+            return await _context.Posts
+                .Include(p => p.User)
+                .Include(p => p.Likes)
+                .Include(p => p.Favorites)
+                .Include(p => p.Comments).ThenInclude(c => c.User)
+                .FirstOrDefaultAsync(p => p.Id == postId);
+        }
+
         public async Task<List<Post>> GetPostsAsync(int userId)
         {
             return await _context.Posts
