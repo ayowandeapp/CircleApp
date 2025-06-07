@@ -1,6 +1,8 @@
 using CircleApp.Data;
 using CircleApp.Helpers;
+using CircleApp.Models;
 using CircleApp.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +21,29 @@ builder.Services.AddScoped<IStoriesService, StoriesService>();
 builder.Services.AddScoped<IFilesService, FilesService>();
 builder.Services.AddScoped<IUserService, UserService>();
 
+//Identity Configuration
+builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
+{
+    //setting password
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 4;
+})
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Authentication/Login";
+    options.AccessDeniedPath = "/Authentication/AccessDenied";
+});
+
+//Authentication
+// builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+
+
 var app = builder.Build();
 
 //Seeed database with initial data using Dependency Injection (DI) scoping
@@ -27,6 +52,11 @@ using (var scope = app.Services.CreateScope())
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>(); //resolve this service
     await dbContext.Database.MigrateAsync(); //run pending migrations
     await DbInitializer.Seed(dbContext);
+
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole<int>>>();
+
+    await DbInitializer.SeedUserAndRolesAsync(userManager, roleManager);
 
 }
 
@@ -40,6 +70,8 @@ using (var scope = app.Services.CreateScope())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

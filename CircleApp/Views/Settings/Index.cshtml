@@ -50,10 +50,10 @@
                     <form asp-controller="Authentication" asp-action="UpdateProfile">
                         <div class="space-y-6">
 
-                            @* @if (TempData["UserProfileError"] != null)
+                            @if (TempData["UserProfileError"] != null)
                             {
                                 <div class="text-red-500 mb-4">@TempData["UserProfileError"]</div>
-                            } *@
+                            }
 
                             <div class="flex items-center gap-10">
                                 <label class="w-32 text-right">Full name</label>
@@ -61,10 +61,10 @@
                                     <input value="@Model.Fullname" type="text" name="fullName" placeholder="Enter your full name"  class="w-full" />
                                 </div>
                             </div>
-                            @* <div class="flex items-center gap-10">
+                            <div class="flex items-center gap-10">
                                 <label class="w-32 text-right">Username</label>
                                 <div class="flex-1">
-                                    <input value="@Model.Username" type="text" name="username" placeholder="Enter your username" class="w-full" />
+                                    <input value="@Model.UserName" type="text" name="username" placeholder="Enter your username" class="w-full" />
                                 </div>
                             </div>
                             <div class="flex items-center gap-10">
@@ -72,7 +72,7 @@
                                 <div class="flex-1">
                                     <textarea class="w-full" name="bio" rows="5" placeholder="Enter your bio">@Model.Bio</textarea>
                                 </div>
-                            </div> *@
+                            </div>
                             <div class="flex items-center gap-4 mt-16 pl-[10.5rem]">
                                 <button class="button px-6 bg-secondary">Cancel</button>
                                 <button type="submit" class="button px-10 bg-primary text-white">Save</button>
@@ -84,7 +84,7 @@
                     <form asp-controller="Authentication" asp-action="UpdatePassword">
                         <div class="space-y-6">
 
-                            @* @if (TempData["PasswordError"] != null)
+                            @if (TempData["PasswordError"] != null)
                             {
                                 <div class="text-red-500 mb-4">@TempData["PasswordError"]</div>
                             }
@@ -93,7 +93,7 @@
                             {
                                 <div class="text-green-500 mb-4">@TempData["PasswordSuccess"]</div>
 
-                            } *@
+                            }
 
                             <div class="flex items-center gap-10">
                                 <label class="w-32 text-right">Current password</label>

@@ -1,3 +1,4 @@
+@using System.Security.Claims
 @model Post
 
 @{
@@ -12,9 +13,11 @@
     }else{
         displayTime = "Just now";
     }
+    var authUser = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    int userId = int.TryParse(authUser, out int result) ? result : 0;
     
     bool isFavorited = Model.Favorites.Count > 0;
-    bool isPrivate = Model.IsPrivate == true && Model.UserId == 1;
+    bool isPrivate = Model.IsPrivate == true && Model.UserId == userId;
     bool isReported = Model.Reports.Count > 0;
     bool showAllComments = ViewData["ShowAllComments"] as bool? ?? false;
     var comments = showAllComments ? Model.Comments.OrderByDescending(n => n.DateCreated) : Model.Comments.OrderByDescending(n => n.DateCreated).Take(2);
@@ -39,7 +42,7 @@
         <div class="-mr-1">
             <button type="button" class="button-icon w-8 h-8"> <ion-icon class="text-xl" name="ellipsis-horizontal"></ion-icon> </button>
             <div class="w-[245px] post-options-dropdown" uk-dropdown="pos: bottom-right; animation: uk-animation-scale-up uk-transform-origin-top-right; animate-out: true; mode: click">
-                @if(Model.UserId == 1)
+                @if(Model.UserId == userId)
                 {
                     <form asp-controller="Home" asp-action="TogglePostVisibility">
                         <input type="hidden" name="postId" value="@Model.Id" />
@@ -98,8 +101,8 @@
             <div class="flex items-center gap-2.5">
                 <form asp-controller="Home" asp-action="TogglePostLike">
                     <input type="hidden" name="postId" value="@Model.Id" />
-                    <button type="submit" class="button-icon @(Model.Likes.Any(n=> n.UserId == 1) ? "text-red-500 bg-red-100" : "")">
-                        <ion-icon class="text-lg" name="@(Model.Likes.Any(n=> n.UserId == 1) ? "heart" : "heart-outline")"></ion-icon>
+                    <button type="submit" class="button-icon @(Model.Likes.Any(n=> n.UserId == userId) ? "text-red-500 bg-red-100" : "")">
+                        <ion-icon class="text-lg" name="@(Model.Likes.Any(n=> n.UserId == userId) ? "heart" : "heart-outline")"></ion-icon>
                     </button>
                 </form>
                 <a href="#">@Model.Likes.Count</a>

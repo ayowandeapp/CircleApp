@@ -3,19 +3,25 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using CircleApp.Controllers.Base;
 using CircleApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace CircleApp.Controllers
 {
-    public class FavoritesController(IPostService postService) : Controller
+    [Authorize]
+    public class FavoritesController(IPostService postService) : BaseController
     {
         public readonly IPostService _postService = postService;
 
         public async Task<IActionResult> Index()
         {
-            var posts = await _postService.GetFavoritedPostsAsync();
+            var userId = GetUserId();
+            if(userId == null) return RedirectToLogin();
+
+            var posts = await _postService.GetFavoritedPostsAsync(userId.Value);
 
             return View(posts);
         }

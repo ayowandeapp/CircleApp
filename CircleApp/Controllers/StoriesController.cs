@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using CircleApp.Controllers.Base;
 using CircleApp.Data;
 using CircleApp.Enums;
 using CircleApp.Models;
 using CircleApp.Services;
 using CircleApp.ViewModels.Stories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -15,7 +17,9 @@ using Microsoft.Extensions.Logging;
 namespace CircleApp.Controllers
 {
     // [Route("[controller]")]
-    public class StoriesController : Controller
+    
+    [Authorize]
+    public class StoriesController : BaseController
     {
         private readonly ILogger<StoriesController> _logger;
         private readonly IStoriesService _storiesService;
@@ -32,12 +36,13 @@ namespace CircleApp.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateStories(PostStoriesVM postStoriesVM)
         {
-            int userId = 1;
-            
+            var userId = GetUserId();
+            if(userId == null) return RedirectToLogin();
+
             var newStory = new Story
             {
                 ImageUrl = "",
-                UserId = userId
+                UserId = userId.Value
             };
             newStory.ImageUrl = await _filesService.UploadImageAsync(postStoriesVM.Image, ImageFileTypeEnum.StoryImage);
 

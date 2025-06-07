@@ -20,10 +20,9 @@ namespace CircleApp.Services
 
         public async Task<List<Story>> GetStories()
         {
-            int userId = 1;
             var stories = await _context.Stories
                             .Include(s => s.User)
-                            .Where(s => s.UserId == userId && s.DateCreated >= DateTime.UtcNow.AddHours(-24))
+                            .Where(s => s.DateCreated >= DateTime.UtcNow.AddHours(-24))
                             .OrderByDescending(s => s.DateCreated)
                             .ToListAsync();
             return stories;

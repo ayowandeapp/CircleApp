@@ -26,9 +26,8 @@ namespace CircleApp.Services
             return post;
         }
 
-        public async Task<List<Post>> GetFavoritedPostsAsync()
+        public async Task<List<Post>> GetFavoritedPostsAsync(int userId)
         {
-            int userId = 1;
             return await _context.Favorites
                 .Where(f => f.UserId == userId && f.Post.DateDeleted == null && f.Post.Reports.Count < 5)
                 .Include(f => f.Post.Reports)
@@ -66,10 +65,8 @@ namespace CircleApp.Services
                 .ToListAsync();
         }
 
-        public async Task<Post?> RemovePostAsync(int postId)
+        public async Task<Post?> RemovePostAsync(int postId, int userId)
         {
-            int userId = 1;
-
             var post = await _context.Posts.FirstOrDefaultAsync(
                 p => p.Id == postId && p.UserId == userId
             );
@@ -84,9 +81,8 @@ namespace CircleApp.Services
             return post;
         }
 
-        public async Task RemovePostCommentAsync(int commentId)
+        public async Task RemovePostCommentAsync(int commentId, int userId)
         {
-            int userId = 1;
             var comment = await _context.Comments.FirstOrDefaultAsync(c => c.Id == commentId);
             if (comment == null || comment.UserId != userId)
             {
@@ -98,9 +94,8 @@ namespace CircleApp.Services
             await _context.SaveChangesAsync();
         }
 
-        public async Task ReportPostAsync(int postId)
+        public async Task ReportPostAsync(int postId, int userId)
         {            
-            int userId = 1;
             Report newReport = new()
             {
                 UserId = userId,
@@ -111,10 +106,8 @@ namespace CircleApp.Services
             await _context.SaveChangesAsync();
         }
 
-        public async Task TogglePostFavoriteAsync(int postId)
+        public async Task TogglePostFavoriteAsync(int postId, int userId)
         {
-            
-            int userId = 1;
             var favorite = await _context.Favorites.Where(f => f.PostId == postId && f.UserId == userId).FirstOrDefaultAsync();
             if (favorite != null)
             {
@@ -132,9 +125,8 @@ namespace CircleApp.Services
             await _context.SaveChangesAsync();
         }
 
-        public async Task TogglePostLikeAsync(int postId)
+        public async Task TogglePostLikeAsync(int postId,int userId)
         {            
-            int userId = 1;
             var like = await _context.Likes
                 .Where(l => l.PostId == postId && l.UserId == userId)
                 .FirstOrDefaultAsync();
@@ -155,9 +147,8 @@ namespace CircleApp.Services
         }
         }
 
-        public async Task TogglePostVisibilityAsync(int postId)
+        public async Task TogglePostVisibilityAsync(int postId, int userId)
         {
-            int userId = 1;
             var post = await _context.Posts
                 .Where(p => p.Id == postId && p.UserId == userId)
                 .FirstOrDefaultAsync();

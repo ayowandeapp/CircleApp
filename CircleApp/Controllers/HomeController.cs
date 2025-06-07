@@ -7,10 +7,13 @@ using CircleApp.ViewModels.Home;
 using CircleApp.Data.Helpers;
 using CircleApp.Services;
 using CircleApp.Enums;
+using Microsoft.AspNetCore.Authorization;
+using CircleApp.Controllers.Base;
 
 namespace CircleApp.Controllers;
 
-public class HomeController : Controller
+[Authorize]
+public class HomeController : BaseController
 {
     private readonly ILogger<HomeController> _logger;
     private readonly AppDbContext _appDbcontext;
@@ -31,8 +34,9 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        int userId = 1;
-        var allPosts = await _postService.GetPostsAsync(userId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        var allPosts = await _postService.GetPostsAsync(userId.Value);
 
         return View(allPosts);
     }
@@ -48,7 +52,8 @@ public class HomeController : Controller
     {
         Console.WriteLine(post.Content);
         //loggedin user
-        int userId = 1;
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
         var newPost = new Post
         {
             Content = post.Content,
@@ -56,7 +61,7 @@ public class HomeController : Controller
             DateUpdated = DateTime.UtcNow,
             ImageUrl = "",
             NrOfReports = 0,
-            UserId = userId
+            UserId = userId.Value
         };
         newPost.ImageUrl = await _filesService.UploadImageAsync(post.Image, ImageFileTypeEnum.PostImage);
 
@@ -65,9 +70,9 @@ public class HomeController : Controller
         if (newPost.Content != null)
         {
             await _hashtagService.ProcessHashtagsForNewPostAsync(newPost.Content);
-            
+
         }
-        
+
 
         //redirect to index page
         return RedirectToAction("Index");
@@ -77,7 +82,9 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> TogglePostLike(PostLikeVM postLikeVM)
     {
-        await _postService.TogglePostLikeAsync(postLikeVM.PostId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        await _postService.TogglePostLikeAsync(postLikeVM.PostId, userId.Value);
         return RedirectToAction("Index");
 
     }
@@ -85,10 +92,11 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> AddPostComment(PostCommentVM postCommentVM)
     {
-        int userId = 1;
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
         Comment newComment = new()
         {
-            UserId = userId,
+            UserId = userId.Value,
             PostId = postCommentVM.PostId,
             Content = postCommentVM.Content,
             DateCreated = DateTime.UtcNow,
@@ -104,7 +112,9 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> RemovePostComment(RemoveCommentVM removeCommentVM)
     {
-        await _postService.RemovePostCommentAsync(removeCommentVM.CommentId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        await _postService.RemovePostCommentAsync(removeCommentVM.CommentId, userId.Value);
 
         return RedirectToAction("Index");
 
@@ -113,7 +123,9 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> ToggleFavoritePosts(PostFavoriteVM postFavoriteVM)
     {
-        await _postService.TogglePostFavoriteAsync(postFavoriteVM.PostId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        await _postService.TogglePostFavoriteAsync(postFavoriteVM.PostId, userId.Value);
         return RedirectToAction("Index");
 
     }
@@ -121,29 +133,33 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> TogglePostVisibility(PostVisibilityVM postVisibilityVM)
     {
-        await _postService.TogglePostVisibilityAsync(postVisibilityVM.PostId);
-        
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        await _postService.TogglePostVisibilityAsync(postVisibilityVM.PostId, userId.Value);
+
         return RedirectToAction("Index");
 
     }
-    
-    
+
+
     [HttpPost]
     public async Task<IActionResult> AddPostReport(PostReportVM postReportVM)
     {
-        await _postService.ReportPostAsync(postReportVM.PostId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        await _postService.ReportPostAsync(postReportVM.PostId, userId.Value);
 
         return RedirectToAction("Index");
 
     }
- 
-    
+
+
     [HttpPost]
     public async Task<IActionResult> PostDelete(PostDeleteVM postDeleteVM)
     {
-        int userId = 1;
-
-        var post = await _postService.RemovePostAsync(postDeleteVM.PostId);
+        var userId = GetUserId();
+        if(userId == null) return RedirectToLogin();
+        var post = await _postService.RemovePostAsync(postDeleteVM.PostId, userId.Value);
 
         if (post?.Content != null)
         {
