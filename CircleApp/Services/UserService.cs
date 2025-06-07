@@ -16,6 +16,20 @@ namespace CircleApp.Services
             return await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
         }
 
+        public async Task<List<Post>> GetUserPosts(int userId)
+        {
+            return await _context.Posts
+                .Where(p => p.DateDeleted == null)
+                .Where(p => ( p.UserId == userId) && p.Reports.Count < 5)
+                .Include(n => n.User)
+                .Include(n => n.Likes)
+                .Include(n => n.Comments).ThenInclude(c => c.User)
+                .Include(n => n.Favorites.Where(f => f.UserId == userId))
+                .Include(n => n.Reports.Where(r => r.UserId == userId))
+                .OrderByDescending(p => p.DateCreated)
+                .ToListAsync();
+        }
+
         public async Task UpdateUserProfilePicture(int userId, string profilePictureUrl)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);

@@ -27,13 +27,13 @@
 
     @* Post heading *@
     <div class="flex gap-3 sm:p-4 p-2.5 text-sm font-medium">
-        <a>
+        <a asp-controller="Users" asp-action="Details" asp-route-userId="@Model.UserId">
             <img src="@Url.Content(Model.User.ProfilePictureUrl ?? "~/images/avatar/user.png")" 
                 class="w-9 h-9 rounded-full" 
                 alt="@Model.User.Fullname's profile picture" />
         </a>
         <div class="flex-1">
-            <a>
+            <a asp-controller="Users" asp-action="Details" asp-route-userId="@Model.UserId">
                 <h4 class="text-black" style="color: black !important;">@Model.User.Fullname</h4>
                 <div class="text-xs text-gray-500/80" title="@Model.DateCreated.ToString("MM/dd/yyyy HH:mm")">@displayTime</div>
             </a>
@@ -147,12 +147,12 @@
                 };
 
                 <div class="flex items-start gap-3 relative">
-                    <a>
+                    <a asp-controller="Users" asp-action="Details" asp-route-userId="@comment.UserId">
                         <img src="@(comment.User.ProfilePictureUrl ?? "~/images/avatar/user.png")" class="w-6 h-6 mt-1 rounded-full" />
                     </a>
                     <div class="flex-1">
                         <div class="flex justify-content-between">
-                            <a class="text-black font-medium inline-block flex-grow">
+                            <a asp-controller="Users" asp-action="Details" asp-route-userId="@comment.UserId" class="text-black font-medium inline-block flex-grow">
                                 @comment.User.Fullname
                             </a>
                             <small>@commentDisplayTime</small>
