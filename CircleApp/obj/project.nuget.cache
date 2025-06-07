@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MOFpY4Mm1T0=",
+  "dgSpecHash": "eTn62Xa7ieM=",
   "success": true,
   "projectFilePath": "C:\\Users\\ovayo\\Desktop\\.net\\project\\CircleApp\\CircleApp\\CircleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ovayo\\.nuget\\packages\\aspnet.security.oauth.github\\9.4.0\\aspnet.security.oauth.github.9.4.0.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ovayo\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\9.0.5\\microsoft.aspnetcore.authentication.google.9.0.5.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.5\\microsoft.aspnetcore.cryptography.internal.9.0.5.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.5\\microsoft.aspnetcore.cryptography.keyderivation.9.0.5.nupkg.sha512",
     "C:\\Users\\ovayo\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\9.0.5\\microsoft.aspnetcore.identity.entityframeworkcore.9.0.5.nupkg.sha512",

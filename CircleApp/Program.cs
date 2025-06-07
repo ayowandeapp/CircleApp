@@ -1,7 +1,10 @@
+using System.Security.Claims;
 using CircleApp.Data;
 using CircleApp.Helpers;
 using CircleApp.Models;
 using CircleApp.Services;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -33,12 +36,40 @@ builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
 })
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Authentication/Login";
     options.AccessDeniedPath = "/Authentication/AccessDenied";
 });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    // .AddCookie()
+    .AddGoogle(options =>
+    {
+        options.ClientId = builder.Configuration["Auth:Google:ClientId"] ?? "";
+        options.ClientSecret = builder.Configuration["Auth:Google:ClientSecret"] ?? "";
+        options.CallbackPath = "/signin-google";
+
+
+        // Save tokens
+        options.SaveTokens = true;
+    })
+    .AddGitHub(options =>
+    {
+        options.ClientId = builder.Configuration["Auth:GitHub:ClientId"] ?? "";
+        options.ClientSecret = builder.Configuration["Auth:GitHub:ClientSecret"] ?? "";
+        options.CallbackPath = "/signin-github";
+        
+        // Request email scope
+        options.Scope.Add("user:email");
+        
+        options.Scope.Add("read:user");
+
+        options.SaveTokens = true;
+        
+    })
+    ;
 //Authentication
 // builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();

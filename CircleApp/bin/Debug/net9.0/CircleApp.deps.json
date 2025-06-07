@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "CircleApp/1.0.0": {
         "dependencies": {
+          "AspNet.Security.OAuth.GitHub": "9.4.0",
+          "Microsoft.AspNetCore.Authentication.Google": "9.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
@@ -15,6 +17,14 @@
         },
         "runtime": {
           "CircleApp.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.GitHub/9.4.0": {
+        "runtime": {
+          "lib/net9.0/AspNet.Security.OAuth.GitHub.dll": {
+            "assemblyVersion": "9.4.0.0",
+            "fileVersion": "9.400.25.27134"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -57,6 +67,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/9.0.5": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "9.0.5.0",
+            "fileVersion": "9.0.525.22904"
           }
         }
       },
@@ -1074,6 +1092,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNet.Security.OAuth.GitHub/9.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7GhVVFD1q/IQoHGtRNKk8G8TY+SQR/+dZg76jCBAFsrsypK69O23lm1d4arX+TFI4trdojv7RMpO5pH+RMgB8g==",
+      "path": "aspnet.security.oauth.github/9.4.0",
+      "hashPath": "aspnet.security.oauth.github.9.4.0.nupkg.sha512"
+    },
     "Azure.Core/1.38.0": {
       "type": "package",
       "serviceable": true,
@@ -1094,6 +1119,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K6b2OX3eY4RAwySFxfOTlBNvPw8OYRWTYKV7XFGaYhKQaaq3ooxsg0tzHsH/UxwK7SDTpnXiHYVcbMBFFlYmxw==",
+      "path": "microsoft.aspnetcore.authentication.google/9.0.5",
+      "hashPath": "microsoft.aspnetcore.authentication.google.9.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/9.0.5": {
       "type": "package",
