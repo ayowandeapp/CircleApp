@@ -23,6 +23,8 @@ namespace CircleApp.Data
         public DbSet<Report> Reports { get; set; }
         public DbSet<Story> Stories { get; set; }
         public DbSet<Hashtag> Hashtags { get; set; }
+        public DbSet<FriendRequest> FriendRequests { get; set; }
+        public DbSet<Friendship> Friendships { get; set; }
 
         //Explicitly define relationship
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -51,7 +53,7 @@ namespace CircleApp.Data
                 .HasForeignKey(c => c.PostId)
                 .OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<Comment>()
-                .HasOne(c =>c.User)
+                .HasOne(c => c.User)
                 .WithMany(u => u.Comments)
                 .HasForeignKey(c => c.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
@@ -89,7 +91,6 @@ namespace CircleApp.Data
                 .WithMany(u => u.Stories)
                 .HasForeignKey(s => s.UserId);
 
-
             base.OnModelCreating(modelBuilder);
 
             //Customize the ASP.NET identity model table names
@@ -100,6 +101,30 @@ namespace CircleApp.Data
             modelBuilder.Entity<IdentityUserLogin<int>>().ToTable("UserLogins");
             modelBuilder.Entity<IdentityRoleClaim<int>>().ToTable("RoleClaims");
             modelBuilder.Entity<IdentityUserToken<int>>().ToTable("UserTokens");
+
+
+
+            modelBuilder.Entity<FriendRequest>()
+                .HasOne(u => u.Sender)
+                .WithMany()
+                .HasForeignKey(fr => fr.SenderId)
+                .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<FriendRequest>()
+                .HasOne(u => u.Receiver)
+                .WithMany()
+                .HasForeignKey(fr => fr.ReceiverId)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Friendship>()
+                .HasOne(u => u.Sender)
+                .WithMany()
+                .HasForeignKey(fr => fr.SenderId)
+                .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Friendship>()
+                .HasOne(u => u.Receiver)
+                .WithMany()
+                .HasForeignKey(fr => fr.ReceiverId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
         
     }
