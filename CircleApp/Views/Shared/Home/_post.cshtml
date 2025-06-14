@@ -21,9 +21,10 @@
     bool isReported = Model.Reports.Count > 0;
     bool showAllComments = ViewData["ShowAllComments"] as bool? ?? false;
     var comments = showAllComments ? Model.Comments.OrderByDescending(n => n.DateCreated) : Model.Comments.OrderByDescending(n => n.DateCreated).Take(2);
+    var isLiked = Model.Likes.Any(n=> n.UserId == userId);
 }
 
-<div class="bg-white rounded-xl shadow-sm text-sm font-medium border1">
+<div id="post-@Model.Id" class="bg-white rounded-xl shadow-sm text-sm font-medium border1">
 
     @* Post heading *@
     <div class="flex gap-3 sm:p-4 p-2.5 text-sm font-medium">
@@ -100,9 +101,10 @@
         
             <div class="flex items-center gap-2.5">
                 <form asp-controller="Home" asp-action="TogglePostLike">
+                    @Html.AntiForgeryToken()
                     <input type="hidden" name="postId" value="@Model.Id" />
-                    <button type="submit" class="button-icon @(Model.Likes.Any(n=> n.UserId == userId) ? "text-red-500 bg-red-100" : "")">
-                        <ion-icon class="text-lg" name="@(Model.Likes.Any(n=> n.UserId == userId) ? "heart" : "heart-outline")"></ion-icon>
+                    <button type="submit" class="button-icon like-button @(isLiked ? "text-red-500 bg-red-100" : "")">
+                        <ion-icon class="text-lg" name="@(isLiked ? "heart" : "heart-outline")"></ion-icon>
                     </button>
                 </form>
                 <a href="#">@Model.Likes.Count</a>
@@ -120,8 +122,9 @@
         <div>
             <a class="button-icon ml-auto">
                 <form asp-controller="Home" asp-action="ToggleFavoritePosts">
+                    @Html.AntiForgeryToken()
                     <input type="hidden" name="postId" value="@Model.Id" />
-                    <button type="submit" class="button-icon @(isFavorited ? "text-orange-500 bg-orange-100" : "")">
+                    <button type="submit" class="favorite-button button-icon @(isFavorited ? "text-orange-500 bg-orange-100" : "")">
                         <ion-icon class="text-lg" name="@(isFavorited ? "bookmark" : "bookmark-outline")"></ion-icon>
                     </button>
                 </form>
@@ -161,7 +164,9 @@
                             <p class="mt-0.5">
                                 @comment.Content
                             </p>
-                            <form asp-controller="Home" asp-action="RemovePostComment">
+                            <form asp-controller="Home" asp-action="RemovePostComment" class="remove-comment-form">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="postId" value="@Model.Id" />
                                 <input type="hidden"  name="commentId" value="@comment.Id"/>
                                 <button type="submit" class="text-red-500 text-xs ml-2" title="Remove post comment">
                                     <ion-icon name="trash-outline"></ion-icon>
@@ -184,16 +189,17 @@
         </div>
 
 
-        <form asp-controller="Home" asp-action="AddPostComment">
+        <form asp-controller="Home" asp-action="AddPostComment" class="add-comment-form">
             <div class="sm:px-4 sm:py-3 p-2.5 border-t border-gray-100 flex items-center gap-1">
                 <img src="~/images/avatar/user.png" class="w-6 h-6 rounded-full" />
+                @Html.AntiForgeryToken()
                 
-                    <input type="hidden" name="postId" value="@Model.Id" />
+                <input type="hidden" name="postId" value="@Model.Id" />
 
-                    <div class="flex-1 relative overflow-hidden h-10">
-                        <textarea name="Content" placeholder="Add Comment...." rows="1" class="w-full resize-none !bg-transparent px-4 py-2 focus:!border-transparent focus:!ring-transparent"></textarea>
-                    </div>
-                    <button type="submit" class="text-sm rounded-full py-1.5 px-3.5 bg-secondery">Comment</button>
+                <div class="flex-1 relative overflow-hidden h-10">
+                    <textarea name="Content" placeholder="Add Comment...." rows="1" class="w-full resize-none !bg-transparent px-4 py-2 focus:!border-transparent focus:!ring-transparent"></textarea>
+                </div>
+                <button type="submit" class="text-sm rounded-full py-1.5 px-3.5 bg-secondery">Comment</button>
 
 
             </div>

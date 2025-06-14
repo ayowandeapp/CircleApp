@@ -80,20 +80,25 @@ public class HomeController : BaseController
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> TogglePostLike(PostLikeVM postLikeVM)
     {
         var userId = GetUserId();
-        if(userId == null) return RedirectToLogin();
+        if (userId == null) return RedirectToLogin();
         await _postService.TogglePostLikeAsync(postLikeVM.PostId, userId.Value);
-        return RedirectToAction("Index");
+
+        var post = await _postService.GetPostByIdAsync(postLikeVM.PostId);
+
+        return PartialView("Home/_Post", post);
 
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> AddPostComment(PostCommentVM postCommentVM)
     {
         var userId = GetUserId();
-        if(userId == null) return RedirectToLogin();
+        if (userId == null) return RedirectToLogin();
         Comment newComment = new()
         {
             UserId = userId.Value,
@@ -104,29 +109,38 @@ public class HomeController : BaseController
 
         };
         await _postService.AddPostCommentAsync(newComment);
+        var post = await _postService.GetPostByIdAsync(postCommentVM.PostId);
+        return PartialView("Home/_post", post); 
 
-        return RedirectToAction("Index");
+        // return RedirectToAction("Index");
 
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> RemovePostComment(RemoveCommentVM removeCommentVM)
     {
         var userId = GetUserId();
         if(userId == null) return RedirectToLogin();
         await _postService.RemovePostCommentAsync(removeCommentVM.CommentId, userId.Value);
 
-        return RedirectToAction("Index");
+        var post = await _postService.GetPostByIdAsync(removeCommentVM.PostId);
+        
+        return PartialView("Home/_Post", post);
+
+        // return RedirectToAction("Index");
 
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> ToggleFavoritePosts(PostFavoriteVM postFavoriteVM)
     {
         var userId = GetUserId();
-        if(userId == null) return RedirectToLogin();
+        if (userId == null) return RedirectToLogin();
         await _postService.TogglePostFavoriteAsync(postFavoriteVM.PostId, userId.Value);
-        return RedirectToAction("Index");
+        var post = await _postService.GetPostByIdAsync(postFavoriteVM.PostId);
+        return PartialView("Home/_Post", post);
 
     }
 

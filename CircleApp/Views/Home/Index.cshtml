@@ -26,22 +26,25 @@
                     </div>
 
                 </div>
-                @if(Model.Count == 0)
-                {
-                    <div class="bg-white rounded-xl shadow-sm md:p-4 p-2 space-y-4 text-sm font-medium border1" style="width: 580px;">
-                        Currently, there are no posts available. Would you like to create the first one?
-                    </div>
+                <div id="posts-container" class="space-y-4">
 
-                }
-                else
-                {
-                    @foreach(var post in Model)
+                    @if(Model.Count == 0)
                     {
-                        @* @await Html.PartialAsync("Home/_post", post)  or*@
-                        <partial name="Home/_post" model="post" view-data='new ViewDataDictionary(ViewData){ {"ShowAllComments", false } }' />
-                    }
+                        <div class="bg-white rounded-xl shadow-sm md:p-4 p-2 space-y-4 text-sm font-medium border1" style="width: 580px;">
+                            Currently, there are no posts available. Would you like to create the first one?
+                        </div>
 
-                }
+                    }
+                    else
+                    {
+                        @foreach(var post in Model)
+                        {
+                            @* @await Html.PartialAsync("Home/_post", post)  or*@
+                            <partial name="Home/_post" model="post" view-data='new ViewDataDictionary(ViewData){ {"ShowAllComments", false } }' />
+                        }
+
+                    }
+                </div>
 
             </div>
         </div>
@@ -70,4 +73,107 @@
         document.getElementById('deletePostId').value = postId;
         UIkit.modal('#postDeleteDialog').show();
     }
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('posts-container').addEventListener('click', function(e){
+            const btn = e.target.closest('.like-button, .favorite-button'); //checks if the clicked element or one of its ancestors has the class like-button
+            console.log('btn',btn)
+            if(btn){
+                e.preventDefault();
+                var form = btn.closest('form');
+                var postId = form.querySelector('input[name="postId"]').value;
+
+                var postContainer = document.getElementById('post-' + postId)
+                
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {}
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        console.log(html)
+                        postContainer.innerHTML = html;
+                    })
+                    .catch(error => console.error('Error: ', error));
+
+                console.log('tapp', postId);
+            }
+
+        })
+        
+        document.getElementById('posts-container').addEventListener('submit', function(e){
+            var form = e.target;
+            if(form.classList.contains('add-comment-form') || form.classList.contains('remove-comment-form')){
+                e.preventDefault();
+                
+                var postId = form.querySelector('input[name="postId"]').value;
+
+                var postContainer = document.getElementById('post-' + postId)
+                
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {}
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        console.log(html)
+                        postContainer.innerHTML = html;
+                    })
+                    .catch(error => console.error('Error: ', error));
+            }
+
+            
+            @* if (form.classList.contains('remove-comment-form')) {
+                event.preventDefault();
+
+                var postId = form.querySelector('input[name="postId"]').value;
+                var commentId = form.querySelector('input[name="commentId"]').value;
+                console.log(form,postId, commentId)
+
+                var postContainer = document.getElementById('post-' + postId);
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {}
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        postContainer.innerHTML = html;
+                    })
+                    .catch(error => console.error('Error: ', error));
+
+            } *@
+
+        })
+
+    })
+        
+   @*      
+    document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('posts-container').addEventListener('click', function () {
+            const button = event.target.closest('.like-button');
+
+            if (button) {
+                event.preventDefault();
+
+                var form = button.closest('form');
+                var postId = form.querySelector('input[name="postId"]').value;
+                var postContainer = document.getElementById('post-' + postId);
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {}
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        postContainer.innerHTML = html;
+                    })
+                    .catch(error => console.error('Error: ', error));
+            } 
+        });*@
+
 </script>
