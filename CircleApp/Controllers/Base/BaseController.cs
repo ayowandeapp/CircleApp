@@ -20,6 +20,11 @@ namespace CircleApp.Controllers.Base
             return int.Parse(authUser);
         }
 
+        protected string? GetUserFullName()
+        {
+            return User.FindFirstValue(ClaimTypes.Name);
+        }
+
         protected IActionResult RedirectToLogin()
         {
             return RedirectToAction("Login", "Authentication");

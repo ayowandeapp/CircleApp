@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CircleApp.Dto;
 using CircleApp.Models;
 
 namespace CircleApp.Services
@@ -14,9 +15,9 @@ namespace CircleApp.Services
         Task<Post?> RemovePostAsync(int postId, int userId);
         Task AddPostCommentAsync(Comment comment);
         Task RemovePostCommentAsync(int commentId, int userId);
-        Task TogglePostLikeAsync(int postId, int userId);
+        Task<GetNotificationDto> TogglePostLikeAsync(int postId, int userId);
         Task TogglePostVisibilityAsync(int postId, int userId);
-        Task TogglePostFavoriteAsync(int postId, int userId);
+        Task<GetNotificationDto> TogglePostFavoriteAsync(int postId, int userId);
         Task ReportPostAsync(int postId, int userId);
         Task<Post?> GetPostByIdAsync(int postId);
 

@@ -4,14 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using CircleApp.Data;
 using CircleApp.Data.Helpers;
+using CircleApp.Dto;
 using CircleApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CircleApp.Services
 {
-    public class PostService(AppDbContext context) : IPostService
+    public class PostService(AppDbContext context, INotificationService notificationService) : IPostService
     {
         private readonly AppDbContext _context = context;
+        private readonly INotificationService _notificationService = notificationService;
         public async Task AddPostCommentAsync(Comment comment)
         {
             await _context.Comments.AddAsync(comment);
@@ -106,8 +108,10 @@ namespace CircleApp.Services
             await _context.SaveChangesAsync();
         }
 
-        public async Task TogglePostFavoriteAsync(int postId, int userId)
+        public async Task<GetNotificationDto> TogglePostFavoriteAsync(int postId, int userId)
         {
+            var res = new GetNotificationDto();
+
             var favorite = await _context.Favorites.Where(f => f.PostId == postId && f.UserId == userId).FirstOrDefaultAsync();
             if (favorite != null)
             {
@@ -121,12 +125,17 @@ namespace CircleApp.Services
                     UserId = userId
 
                 });
+                res.SendNotification = true;
             }
             await _context.SaveChangesAsync();
+            
+            return res;
         }
 
-        public async Task TogglePostLikeAsync(int postId,int userId)
-        {            
+        public async Task<GetNotificationDto> TogglePostLikeAsync(int postId, int userId)
+        {
+            var res = new GetNotificationDto();
+
             var like = await _context.Likes
                 .Where(l => l.PostId == postId && l.UserId == userId)
                 .FirstOrDefaultAsync();
@@ -144,7 +153,13 @@ namespace CircleApp.Services
                 };
                 await _context.AddAsync(newLike);
                 await _context.SaveChangesAsync();
-        }
+
+                res.SendNotification = true;
+            }
+            //Add Notification
+
+            res.Success = true;
+            return res;
         }
 
         public async Task TogglePostVisibilityAsync(int postId, int userId)

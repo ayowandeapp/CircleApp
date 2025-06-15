@@ -10,6 +10,7 @@
     <PackageReference Include="ASPNET.Security.OAuth.GitHub" Version="9.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="9.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

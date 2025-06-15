@@ -43,7 +43,8 @@
         <div class="flex items-center sm:gap-4 gap-2 absolute right-5 top-1/2 -translate-y-1/2 text-black">
 
         @* notification icon *@
-        <button type="button" class="sm:p-2 p-1 rounded-full relative sm:bg-secondery">
+        <button type="button" class="sm:p-2 p-1 rounded-full relative sm:bg-secondery"
+        id="notificationsBtn"  >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 max-sm:hidden">
     using Microsoft.AspNetCore.Identity;
                 <path d="M5.85 3.5a.75.75 0 00-1.117-1 9.719 9.719 0 00-2.348 4.876.75.75 0 001.479.248A8.219 8.219 0 015.85 3.5zM19.267 2.5a.75.75 0 10-1.118 1 8.22 8.22 0 011.987 4.124.75.75 0 001.48-.248A9.72 9.72 0 0019.266 2.5z" />
@@ -55,12 +56,12 @@
         <div class="hidden bg-white pr-1.5 rounded-lg drop-shadow-xl md:w-[365px] w-screen border2" uk-drop="offset:6;pos: bottom-right; mode: click; animate-out: true;">
 
             <div class="flex items-center justify-between gap-2 p-4 pb-2">
-                <h3 class="font-bold text-xl">Notifications</h3>
+                <p class="font-bold text-xl">Notifications</p>
             </div>
 
             <div class="text-sm h-[400px] w-full overflow-y-auto pr-2">
                 <div class="pl-2 p-1 text-sm font-normal" id="notification-dropdown">
-                    No notifications...
+                    No notifications..........
                 </div>
             </div>
 
@@ -101,3 +102,66 @@
     </div>
 </div>
 </header>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.0.27/signalr.min.js" integrity="sha512-a+73ErrZPjhqOu0qbW1QLsenEF4pvDjmnd+Ws6hkDyJlrwAigOQAxQhIT+fPNFWScUvtJQvn+G535TT2C6/G4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    function GetNotificationsCount()
+    {
+        fetch("/Notifications/GetCount", {
+            method: 'GET',
+            header : {
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json())
+        .then(data => {
+            console.log("count", data)
+            document.getElementById("notificationsCount").innerHTML = data;
+        }).catch( err => console.log(err))
+
+    }
+    
+
+    document.addEventListener('DOMContentLoaded', function () {
+        //signalR connection
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/notificationHub").build();
+
+        connection.on("ReceiveNotification", (message) => {
+            console.log(message)
+            document.getElementById("notificationsCount").innerHTML = message;
+        });
+
+        connection.start()
+            .then(() => console.log("SignalR connected"))
+            .catch((err) => console.log("Signal Coonection error", err))
+
+
+        GetNotificationsCount();
+    })
+
+    
+    document.getElementById('notificationsBtn').addEventListener('click', () => {
+        fetch('/Notifications/GetNotifications')
+            .then(resp => resp.text())
+            .then(html => {
+                document.getElementById('notification-dropdown').innerHTML = html;
+            })
+    })
+    
+    function SetNotification(notificationId) {
+        console.log('Mark as read => notification => ', notificationId);
+
+        fetch(`Notifications/SetNotificationAsRead?notificationId=${notificationId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(resp => resp.text())
+            .then(html => {
+                document.getElementById('notification-dropdown').innerHTML = html;
+                GetNotificationsCount();
+            })
+    }
+</script>

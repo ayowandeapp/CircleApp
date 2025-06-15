@@ -105,7 +105,7 @@ namespace CircleApp.Services
 
         }
 
-        public async Task<bool> UpdateRequest(int requestId, string status)
+        public async Task<FriendRequest> UpdateRequest(int requestId, string status)
         {
             var requestDb = await _context.FriendRequests.FindAsync(requestId);
             if (requestDb != null)
@@ -126,9 +126,8 @@ namespace CircleApp.Services
                 }
                 await _context.SaveChangesAsync();
 
-                return true;
             }
-            return false;
+            return requestDb;
 
         }
         

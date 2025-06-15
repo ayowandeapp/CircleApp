@@ -96,7 +96,6 @@ C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleA
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\ref\CircleApp.dll
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\CircleApp.sourcelink.json
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\dn4dvqv0jw-mz2bba8ryg.gz
-C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\jb25jvcogr-6f9r9drxcn.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\ax1a8ngpow-lxzyflrzcn.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\xcdyqeffvg-n9dwubpwf7.gz
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\7fpvm6bnu0-6w9j14fygc.gz
@@ -247,3 +246,6 @@ C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\Microso
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\AspNet.Security.OAuth.GitHub.dll
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\ovayo\Desktop\.net\project\CircleApp\CircleApp\obj\Debug\net9.0\compressed\jb25jvcogr-ozrp04oje6.gz

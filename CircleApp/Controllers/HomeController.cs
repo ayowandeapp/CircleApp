@@ -9,28 +9,28 @@ using CircleApp.Services;
 using CircleApp.Enums;
 using Microsoft.AspNetCore.Authorization;
 using CircleApp.Controllers.Base;
+using Microsoft.AspNetCore.SignalR;
+using CircleApp.Hubs;
+using CircleApp.Data.Helpers.Constants;
 
 namespace CircleApp.Controllers;
 
 [Authorize]
-public class HomeController : BaseController
+public class HomeController(
+    IPostService postService,
+    IHashtagService hashtagService,
+    IFilesService filesService,
+    ILogger<HomeController> logger,
+    AppDbContext appDbContext,
+    INotificationService notificationService
+    ) : BaseController
 {
-    private readonly ILogger<HomeController> _logger;
-    private readonly AppDbContext _appDbcontext;
-    private readonly IPostService _postService;
-    private readonly IHashtagService _hashtagService;
-    private readonly IFilesService _filesService;
-
-    public HomeController(IPostService postService, IHashtagService hashtagService,
-            IFilesService filesService,
-        ILogger<HomeController> logger, AppDbContext appDbContext)
-    {
-        _logger = logger;
-        _appDbcontext = appDbContext;
-        _postService = postService;
-        _hashtagService = hashtagService;
-        _filesService = filesService;
-    }
+    private readonly ILogger<HomeController> _logger = logger;
+    private readonly AppDbContext _appDbcontext = appDbContext;
+    private readonly IPostService _postService = postService;
+    private readonly IHashtagService _hashtagService = hashtagService;
+    private readonly IFilesService _filesService = filesService;
+    private readonly INotificationService _notificationService = notificationService;
 
     public async Task<IActionResult> Index()
     {
@@ -85,9 +85,20 @@ public class HomeController : BaseController
     {
         var userId = GetUserId();
         if (userId == null) return RedirectToLogin();
-        await _postService.TogglePostLikeAsync(postLikeVM.PostId, userId.Value);
+        var res = await _postService.TogglePostLikeAsync(postLikeVM.PostId, userId.Value);
 
         var post = await _postService.GetPostByIdAsync(postLikeVM.PostId);
+
+        if (res.SendNotification && userId.Value != post.UserId)
+        {
+            await _notificationService.AddNotificationAsync(
+                post.UserId,
+                GetUserFullName(),
+                NotificationType.Like,
+                post.Id
+            );
+
+        }
 
         return PartialView("Home/_Post", post);
 
@@ -108,8 +119,18 @@ public class HomeController : BaseController
             DateUpdated = DateTime.UtcNow,
 
         };
-        await _postService.AddPostCommentAsync(newComment);
+         await _postService.AddPostCommentAsync(newComment);
         var post = await _postService.GetPostByIdAsync(postCommentVM.PostId);
+
+        if (userId.Value != post.UserId)
+        {            
+            await _notificationService.AddNotificationAsync(
+                    post.UserId,
+                    GetUserFullName(),
+                    NotificationType.Comment,
+                    post.Id
+                );
+        }
         return PartialView("Home/_post", post); 
 
         // return RedirectToAction("Index");
@@ -138,8 +159,19 @@ public class HomeController : BaseController
     {
         var userId = GetUserId();
         if (userId == null) return RedirectToLogin();
-        await _postService.TogglePostFavoriteAsync(postFavoriteVM.PostId, userId.Value);
+        var res = await _postService.TogglePostFavoriteAsync(postFavoriteVM.PostId, userId.Value);
         var post = await _postService.GetPostByIdAsync(postFavoriteVM.PostId);
+
+        if (res.SendNotification && userId.Value != post.UserId)
+        {
+            await _notificationService.AddNotificationAsync(
+                post.UserId,
+                GetUserFullName(),
+                NotificationType.Favorite,
+                post.Id
+            );
+
+        }
         return PartialView("Home/_Post", post);
 
     }

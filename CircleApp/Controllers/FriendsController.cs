@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using CircleApp.Controllers.Base;
+using CircleApp.Data.Helpers.Constants;
 using CircleApp.Services;
 using CircleApp.ViewModels.Friends;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +12,13 @@ using Microsoft.Extensions.Logging;
 
 namespace CircleApp.Controllers
 {
-    public class FriendsController(IFriendService friendService) : BaseController
+    public class FriendsController(
+        IFriendService friendService,
+        INotificationService notificationService
+        ) : BaseController
     {
         public readonly IFriendService _friendService = friendService;
+        public readonly INotificationService _notificationService = notificationService;
         public async Task<IActionResult> Index()
         {
             var userId = this.GetUserId();
@@ -32,8 +37,13 @@ namespace CircleApp.Controllers
         public async Task<IActionResult> SendFriendRequest(int receiverId)
         {
             var userId = this.GetUserId();
+            var userName = GetUserFullName();
             if (userId == null) return RedirectToLogin();
             await _friendService.SendRequest(userId.Value, receiverId);
+
+            await _notificationService.AddNotificationAsync(
+                receiverId, userName, NotificationType.FriendRequest
+                );
             return RedirectToAction("Index", "Home");
 
         }
@@ -44,7 +54,14 @@ namespace CircleApp.Controllers
         {
             var userId = this.GetUserId();
             if (userId == null) return RedirectToLogin();
-            await _friendService.UpdateRequest(friendRequestUpdateVM.RequestId, friendRequestUpdateVM.Status);
+            var request = await _friendService.UpdateRequest(friendRequestUpdateVM.RequestId, friendRequestUpdateVM.Status);
+            if (friendRequestUpdateVM.Status == FriendshipStatus.Accepted)
+            {
+                var userName = GetUserFullName();
+                await _notificationService.AddNotificationAsync(
+                    request.SenderId, userName, NotificationType.FriendRequestApproved
+                    );
+            }
             return RedirectToAction("Index", "Home");
 
         }

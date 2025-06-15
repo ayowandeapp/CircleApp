@@ -1,10 +1,12 @@
 using System.Security.Claims;
 using CircleApp.Data;
 using CircleApp.Helpers;
+using CircleApp.Hubs;
 using CircleApp.Models;
 using CircleApp.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +26,7 @@ builder.Services.AddScoped<IStoriesService, StoriesService>();
 builder.Services.AddScoped<IFilesService, FilesService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IFriendService, FriendService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 
 //Identity Configuration
 builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
@@ -75,6 +78,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 // builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 
+//Register SignalR
+builder.Services.AddSignalR(); 
+
 
 var app = builder.Build();
 
@@ -114,5 +120,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+// Configure the HTTP request pipeline
+app.MapHub<NotificationHub>("/notificationHub");
 
 app.Run();

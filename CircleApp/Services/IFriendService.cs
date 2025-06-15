@@ -10,7 +10,7 @@ namespace CircleApp.Services
     public interface IFriendService
     {
         Task<bool> SendRequest(int senderId, int receriverId);
-        Task<bool> UpdateRequest(int requestId, string status);
+        Task<FriendRequest> UpdateRequest(int requestId, string status);
         Task<bool> RemoveFriend(int friendshipId);
         Task<List<UserWithFriendsCountDto>> GetSuggestedFriendsAsync(int userId);
         Task<List<FriendRequest>> GetSentFriendRequest(int userId);

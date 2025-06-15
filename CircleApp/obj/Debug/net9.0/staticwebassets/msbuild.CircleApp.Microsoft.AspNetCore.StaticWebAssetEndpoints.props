@@ -336,17 +336,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v0dbs8j9fv"},{"Name":"integrity","Value":"sha256-r0IUKjPDZpJWHBd5Js6wgao0vg31sj52HPQMAvPQF6s="},{"Name":"label","Value":"_content/CircleApp/images/welcome/welcome-02.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53159"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022r0IUKjPDZpJWHBd5Js6wgao0vg31sj52HPQMAvPQF6s=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Jun 2025 18:05:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CircleApp/js/script.6f9r9drxcn.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6f9r9drxcn"},{"Name":"integrity","Value":"sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="},{"Name":"label","Value":"_content/CircleApp/js/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2009"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 00:52:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CircleApp/js/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2009"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022clUZSlZup9IXCTQsTqUxHpz/qRdOFHY0E/usgvp4yk4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 00:52:54 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DNb0GXj6wQemTtryewwYPOM3gWpdBSbakB8/sbYSujM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2440"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DNb0GXj6wQemTtryewwYPOM3gWpdBSbakB8/sbYSujM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Jun 2025 13:22:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CircleApp/js/script.ozrp04oje6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ozrp04oje6"},{"Name":"integrity","Value":"sha256-DNb0GXj6wQemTtryewwYPOM3gWpdBSbakB8/sbYSujM="},{"Name":"label","Value":"_content/CircleApp/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2440"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DNb0GXj6wQemTtryewwYPOM3gWpdBSbakB8/sbYSujM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Jun 2025 13:22:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CircleApp/js/simplebar.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\simplebar.js'))</AssetFile>
