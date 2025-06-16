@@ -4,9 +4,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using CircleApp.Controllers.Base;
+using CircleApp.Helpers.Constants;
 using CircleApp.Models;
 using CircleApp.Services;
 using CircleApp.ViewModels.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -14,6 +16,7 @@ using Microsoft.Extensions.Logging;
 namespace CircleApp.Controllers
 {
     // [Route("[controller]")]
+    [Authorize(Roles = AppRoles.User)]
     public class UsersController(IUserService userService, UserManager<User> userManager) : BaseController
     {
         private readonly IUserService _userService = userService;

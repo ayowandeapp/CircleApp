@@ -14,15 +14,22 @@
         <div id="wrapper">
             @if(User.Identity.IsAuthenticated)
             {
-                @* Topbar *@
-                <partial name="Navigation/_TopBar" />
+                @* if(User.IsInRole(AppRoles.User)) *@
+                
+                if(User.IsInRole(AppRoles.Admin))
+                {
+                    @* Topbar *@
+                    <partial name="Navigation/_TopBarAdmin" />
+                }else{
+                    
+                     @* Topbar *@
+                    <partial name="Navigation/_TopBar" />
+                    @* Side bar (left) *@
+                    <partial name="Navigation/_SideBar" />
 
-                @* Side bar (left) *@
-                <partial name="Navigation/_SideBar" />
+                }
 
             }
-
-            @* Sidebar *@
 
             @RenderBody()
         </div>
@@ -52,3 +59,5 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+using CircleApp.Helpers.Constants;
+#line default

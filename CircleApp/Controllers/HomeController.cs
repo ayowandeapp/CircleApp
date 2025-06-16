@@ -12,10 +12,11 @@ using CircleApp.Controllers.Base;
 using Microsoft.AspNetCore.SignalR;
 using CircleApp.Hubs;
 using CircleApp.Data.Helpers.Constants;
+using CircleApp.Helpers.Constants;
 
 namespace CircleApp.Controllers;
 
-[Authorize]
+[Authorize(Roles = AppRoles.User)]
 public class HomeController(
     IPostService postService,
     IHashtagService hashtagService,

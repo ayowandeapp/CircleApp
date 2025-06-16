@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using CircleApp.Controllers.Base;
 using CircleApp.Enums;
+using CircleApp.Helpers.Constants;
 using CircleApp.Services;
 using CircleApp.ViewModels.Settings;
 using Microsoft.AspNetCore.Authorization;
@@ -16,7 +17,7 @@ namespace CircleApp.Controllers
 {
     // [Route("[controller]")]
     
-    [Authorize]
+    [Authorize(Roles = $"{AppRoles.User}, {AppRoles.Admin}")]
     public class SettingsController(IUserService userService, IFilesService filesService) : BaseController
     {
         public readonly IUserService _userService = userService;

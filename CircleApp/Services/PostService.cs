@@ -105,6 +105,13 @@ namespace CircleApp.Services
 
             };
             await _context.Reports.AddAsync(newReport);
+
+            var post = await _context.Posts.FirstOrDefaultAsync(p => p.Id == postId);
+            if (post != null)
+            {
+                post.NrOfReports += 1;
+                _context.Posts.Update(post);
+            }
             await _context.SaveChangesAsync();
         }
 
